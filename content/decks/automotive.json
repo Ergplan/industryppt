@@ -1,0 +1,805 @@
+{
+ "slug": "automotive",
+ "short": "Automotive",
+ "meta": {
+  "title": "jouleWise · Decarbonisation stack · Automotive",
+  "description": "One provider for green power, green heat and the data that proves both — from press shop to paint shop to dispatch."
+ },
+ "cover": {
+  "eyebrow": "Automotive / power · heat · proof",
+  "titleHtml": "Green power.<br>Green heat.<br><span class=\"g\">One stack.</span>",
+  "sub": "For automotive plants.",
+  "lede": "One provider for green power, green heat and the data that proves both — from press shop to paint shop to dispatch.",
+  "stats": [
+   [
+    "4",
+    "layers · power, heat, data, ESG"
+   ],
+   [
+    "120 °C",
+    "heat pump range · hot water and steam"
+   ],
+   [
+    "15-min",
+    "metered heartbeat on ergOS"
+   ],
+   [
+    "1",
+    "accountable provider"
+   ]
+  ]
+ },
+ "execSummary": {
+  "titleHtml": "Two energy bills.<br><span class=\"g\">One plan to cut both.</span>",
+  "rows": [
+   [
+    "The situation",
+    "An automotive plant pays two energy bills. Electricity runs presses, welding robots, compressed air and paint-shop HVAC; fuel — PNG, LPG or diesel — heats pretreatment baths, washers and ovens. OEMs increasingly ask suppliers for Scope 1 and 2 numbers and a reduction plan, and EU importers of steel and aluminium goods need embedded-emissions data under CBAM."
+   ],
+   [
+    "The gap",
+    "Power, heat and ESG reporting are bought from different vendors on different clocks. Solar is sized without the heat load; boilers are replaced without a plan for cheaper power; ESG data is typed in once a year. Each fix leaves money and carbon on the table."
+   ],
+   [
+    "What we do",
+    "jouleWise runs the whole decarbonisation stack: <b>green power</b> — intrastate and ISTS solar and wind, rooftop solar, BESS and green-market purchase, each source orchestrated to fulfil industrial demand at least cost; <b>ABT metering and data loggers</b> on every source and load; <b>green heat</b> from industrial heat pumps up to 120 °C; <b>ergOS</b> to meter and orchestrate both every 15 minutes; <b>esgOS</b> to turn the same data into audit-ready disclosure."
+   ],
+   [
+    "Why it compounds",
+    "Cheaper green power lowers the cost of every unit of heat a heat pump makes. Thermal storage lets that heat be made in the cheapest solar blocks. ergOS proves it; esgOS reports it. Savings from one layer fund the next."
+   ],
+   [
+    "The value",
+    "Up to 25% lower power cost on DISCOM tariff and up to 65% renewable share (reported, year 1 of ergOS). Heat pumps then displace fuel on pretreatment, washers and hot water — on green power, that heat is close to zero-carbon and a fraction of the cost of fuel-fired heat."
+   ],
+   [
+    "How to engage",
+    "Four models, mix and match: <b>Advisory</b>, <b>SaaS</b> (ergOS + esgOS), <b>Heat Advisory</b>, and <b>Heat as a Service</b>, where you pay per unit of heat and invest nothing upfront."
+   ],
+   [
+    "First step",
+    "A four-week decarbonisation baseline on one plant: power bills, load survey, fuel records and portable heat metering in the paint shop — ending in one business case for power, heat and ESG."
+   ]
+  ],
+  "outcomes": [
+   [
+    "up to 25%",
+    "cost savings on DISCOM tariff"
+   ],
+   [
+    "up to 65%",
+    "renewable share achieved"
+   ]
+  ],
+  "note": "Reported client impact, year 1 of ergOS; C&I client outcomes. Results vary with state, tariff structure and load profile. Automotive-specific value is quantified in the baseline."
+ },
+ "whyNow": {
+  "titleHtml": "The customer is<br><span class=\"g\">counting your carbon.</span>",
+  "lede": "For a vehicle or component maker, decarbonisation has moved from a CSR line to a sourcing condition. Six pressures point at the same metered data.",
+  "drivers": [
+   {
+    "icon": "users",
+    "title": "OEM supplier targets",
+    "text": "Vehicle makers are setting decarbonisation expectations for their supply base. Suppliers with metered Scope 1 and 2 data and a credible plan hold their place on the approved list."
+   },
+   {
+    "icon": "globe",
+    "title": "Exports and CBAM",
+    "text": "EU importers of iron, steel and aluminium goods report embedded emissions under CBAM. Component exporters in scope need plant-level, verifiable data."
+   },
+   {
+    "icon": "rupee",
+    "title": "Energy cost",
+    "text": "The paint shop is among the largest energy users in a vehicle plant — heat, booth HVAC and ovens. Every rupee off power and fuel goes straight to margin."
+   },
+   {
+    "icon": "shield",
+    "title": "Disclosure",
+    "text": "BRSR Core-format reporting and value-chain disclosure put your energy and emissions in your customers' reports as well as your own."
+   },
+   {
+    "icon": "bolt",
+    "title": "Electrification",
+    "text": "As the product line electrifies, the carbon in making it becomes the visible number. Green power and green heat cut it where it is measured — on the plant meter."
+   },
+   {
+    "icon": "leaf",
+    "title": "Carbon markets",
+    "text": "India's Carbon Credit Trading Scheme sets emission-intensity targets sector by sector. Plants that measure now are ready when their sector or supply chain is covered."
+   }
+  ]
+ },
+ "stack": {
+  "titleHtml": "One stack.<br><span class=\"g\">Every layer feeds the next.</span>",
+  "lede": "Most plants buy decarbonisation in pieces. We built it as a loop: low-cost green power feeds heat pumps, storage moves heat into the cheapest blocks, ergOS runs it, esgOS proves it.",
+  "items": [
+   {
+    "layer": "power",
+    "title": "Green power",
+    "text": "Intrastate and ISTS solar and wind, rooftop solar, BESS and green-market purchase — each source orchestrated to fulfil industrial demand at least cost."
+   },
+   {
+    "layer": "heat",
+    "title": "Heat pumps",
+    "text": "Every kWh in becomes three to four kWh of useful heat. The boiler stops burning fuel for loads up to 120 °C."
+   },
+   {
+    "layer": "heat",
+    "title": "Thermal storage",
+    "text": "Heat is made when power is cheapest and greenest, and used when the process needs it."
+   },
+   {
+    "layer": "data",
+    "title": "ergOS",
+    "text": "Meters power, steam, fuel and water every 15 minutes; forecasts, schedules and trades; runs heat pumps against price."
+   },
+   {
+    "layer": "esg",
+    "title": "esgOS",
+    "text": "Converts the same metered data to Scope 1, 2 and 3, BRSR Core-format, CBAM, CDP and customer disclosures."
+   }
+  ],
+  "calloutHtml": "<b>Why the order matters.</b> A heat pump on grid power cuts fuel cost but, at today's grid emission factor, barely cuts carbon against gas. Put the same heat pump on green power and its heat is close to zero-carbon. Power first, then heat — from one provider."
+ },
+ "supplyChain": {
+  "eyebrow": "Press to dispatch",
+  "titleHtml": "Every shop<br>has a lever.",
+  "lede": "Coils arrive, presses stamp, robots weld, the paint shop heats and cools, assembly builds, carriers leave. jouleWise acts at ten points across the plant — four layers, one plan.",
+  "points": [
+   {
+    "n": 1,
+    "layer": "power",
+    "tag": "Power",
+    "title": "Green sourcing",
+    "text": "Intrastate and ISTS solar and wind contracted through open access, routed for the lowest landed cost."
+   },
+   {
+    "n": 2,
+    "layer": "power",
+    "tag": "Power",
+    "title": "Connectivity and metering",
+    "text": "Open access approvals, connection agreement and ABT metering at the plant incomer."
+   },
+   {
+    "n": 3,
+    "layer": "power",
+    "tag": "Power",
+    "title": "Rooftop solar",
+    "text": "Press and body shop roofs carry behind-the-meter solar, sized from measured load."
+   },
+   {
+    "n": 4,
+    "layer": "power",
+    "tag": "Power",
+    "title": "Battery storage",
+    "text": "LFP storage moves midday solar into the evening shift and shaves peak demand."
+   },
+   {
+    "n": 5,
+    "layer": "heat",
+    "tag": "Heat",
+    "title": "Heat pumps on pretreatment",
+    "text": "Degreasing and conversion baths heated by heat pumps instead of PNG or diesel burners."
+   },
+   {
+    "n": 6,
+    "layer": "heat",
+    "tag": "Heat",
+    "title": "Thermal storage",
+    "text": "Hot water store charged in solar blocks, drawn across all shifts."
+   },
+   {
+    "n": 7,
+    "layer": "heat",
+    "tag": "Heat",
+    "title": "Waste heat recovery",
+    "text": "Compressor-house and chiller-condenser heat lifted back to process temperature."
+   },
+   {
+    "n": 8,
+    "layer": "data",
+    "tag": "Data · ergOS",
+    "title": "ergOS control",
+    "text": "15-minute metering of power, heat, fuel and water; forecasting, trading and heat dispatch."
+   },
+   {
+    "n": 9,
+    "layer": "esg",
+    "tag": "ESG · esgOS",
+    "title": "Inbound steel and aluminium",
+    "text": "Supplier data and embedded emissions for Scope 3 and CBAM reporting."
+   },
+   {
+    "n": 10,
+    "layer": "esg",
+    "tag": "ESG · esgOS",
+    "title": "Outbound and customers",
+    "text": "Per-part carbon, OEM questionnaires and BRSR Core-format disclosure from esgOS."
+   }
+  ],
+  "note": "Illustrative plant. Actual intervention map built site by site in the baseline."
+ },
+ "power": {
+  "titleHtml": "Low-cost<br><span class=\"g\">green power.</span>",
+  "lede": "Presses, welding lines, compressed air and paint-shop HVAC set a two- or three-shift load. We build the green portfolio to that profile — and move heat pump load into the solar hours, where green power is cheapest.",
+  "calloutHtml": "<b>Every source, one dispatch.</b> Intrastate and ISTS solar and wind, rooftop solar, BESS and green-market purchase — each source orchestrated to fulfil industrial demand at least cost.",
+  "steps": [
+   {
+    "title": "Plan",
+    "text": "Meter-data due diligence: bills, load survey, rooftop and captive parameters. Solar, wind, hybrid, BESS and exchange power optimised together, capex or opex, with each state's ToD, banking and open access charges in the landed-cost model.",
+    "outcome": "RE-100 roadmap · size, location, savings, NPV"
+   },
+   {
+    "title": "Implement",
+    "text": "RfP over a 25-year horizon, developer evaluation, reverse auction, PPA and shareholder agreements (26% SPV equity for captive status), open access approvals and connection agreement.",
+    "outcome": "Green power contracted · ~3 months once planning closes"
+   },
+   {
+    "title": "Meter and log",
+    "text": "ABT meters at injection and drawal points — main and check meters on CTs and PTs of the required accuracy class — plus data loggers on every incomer, heat pump, steam, fuel and water line. Installed, tested, sealed and linked to the SLDC and to ergOS.",
+    "outcome": "Every source and load visible in 15-minute blocks"
+   },
+   {
+    "title": "Orchestrate",
+    "text": "ergOS forecasts 96 blocks, schedules with the SLDC, trades DAM, GDAM, RTM and GTAM, manages banking and battery health — and now dispatches heat pumps and thermal storage against price.",
+    "outcome": "For the life of the assets"
+   }
+  ]
+ },
+ "heatPump101": {
+  "titleHtml": "What is a<br><span class=\"h\">heat pump?</span>",
+  "lede": "A heat pump is a refrigerator run the other way round. It does not make heat by burning anything — it moves heat that already exists, from a cooler place to a hotter one, and uses electricity only to do the lifting.",
+  "balance": [
+   {
+    "name": "Fuel boiler",
+    "in": [
+     [
+      "fuel",
+      1.0
+     ]
+    ],
+    "inLabel": "1 kWh fuel",
+    "out": 0.85,
+    "outLabel": "0.85 kWh heat"
+   },
+   {
+    "name": "Heat pump",
+    "in": [
+     [
+      "electricity",
+      1.0
+     ],
+     [
+      "free",
+      2.5
+     ]
+    ],
+    "inLabel": "1 kWh power + 2.5 free",
+    "out": 3.5,
+    "outLabel": "3.5 kWh heat"
+   }
+  ],
+  "copNote": "COP (coefficient of performance) = useful heat ÷ electricity. A boiler can never exceed 1; a heat pump typically delivers 2 to 5.",
+  "lifts": [
+   [
+    "~5",
+    "30"
+   ],
+   [
+    "~3.5",
+    "50"
+   ],
+   [
+    "~2.5",
+    "70"
+   ],
+   [
+    "~2",
+    "90"
+   ]
+  ],
+  "liftNote": "Lift = delivery temperature minus source temperature. Recovering warm waste heat first and delivering no hotter than the process needs keeps the COP high.",
+  "faq": [
+   [
+    "Does it replace my boiler?",
+    "For loads up to 120 °C, yes — as the primary heat source. The boiler usually stays on standby and for any loads above that range."
+   ],
+   [
+    "What if power is expensive?",
+    "Each kWh of power returns three to four kWh of heat, so heat costs roughly a third of the power price. On green open access, the carbon falls close to zero as well."
+   ],
+   [
+    "What does the site need?",
+    "Spare electrical capacity, space near the heat users and a steady heat demand. A hot-water store smooths peaks and lets the unit run in the cheapest blocks."
+   ],
+   [
+    "Is it proven?",
+    "It is the same refrigeration cycle as the chillers already on your site, run for heat. Industrial units are in service worldwide in food, chemicals, pharma and textiles."
+   ]
+  ]
+ },
+ "heat": {
+  "titleHtml": "The boiler,<br><span class=\"h\">reinvented.</span>",
+  "lede": "Most paint-shop heat is low-temperature: cleaning baths, conversion coating, booth air and washers sit well below 120 °C. Industrial heat pumps serve those loads with electricity — so as power gets cheaper and greener, so does every unit of heat.",
+  "loads": [
+   {
+    "name": "Pretreatment degreasing",
+    "sub": "alkaline cleaning baths",
+    "min": 45,
+    "max": 60,
+    "heatPump": true
+   },
+   {
+    "name": "Conversion coating",
+    "sub": "zirconium or phosphate",
+    "min": 30,
+    "max": 55,
+    "heatPump": true
+   },
+   {
+    "name": "ED bath and rinses",
+    "sub": "cooling the bath, heating rinse water",
+    "min": 28,
+    "max": 35,
+    "heatPump": true
+   },
+   {
+    "name": "Paint booth air",
+    "sub": "heating and humidity control",
+    "min": 20,
+    "max": 30,
+    "heatPump": true
+   },
+   {
+    "name": "Parts washers",
+    "sub": "machining and assembly lines",
+    "min": 50,
+    "max": 80,
+    "heatPump": true
+   },
+   {
+    "name": "Canteen and hot water",
+    "sub": "kitchens, showers, laundry",
+    "min": 55,
+    "max": 65,
+    "heatPump": true
+   },
+   {
+    "name": "Sealer and PVC ovens",
+    "sub": "remain on existing burners",
+    "min": 130,
+    "max": 160,
+    "heatPump": false
+   },
+   {
+    "name": "ED and topcoat ovens",
+    "sub": "remain on existing burners",
+    "min": 140,
+    "max": 190,
+    "heatPump": false
+   }
+  ],
+  "cards": [
+   {
+    "icon": "flame",
+    "title": "Heat sources we reuse",
+    "text": "Compressed-air compressors, ED bath and chiller condensers, oven and booth exhaust — heat you already pay for, lifted back to process temperature."
+   },
+   {
+    "icon": "bolt",
+    "title": "Heating and cooling at once",
+    "text": "The ED bath and paint-shop HVAC need cooling while pretreatment needs heat. One heat pump serves both — the cooling load becomes the heat source."
+   },
+   {
+    "icon": "chart",
+    "title": "Sized from metered heat",
+    "text": "Portable heat meters log flow and temperature on candidate processes for two to four weeks before anything is sized."
+   }
+  ]
+ },
+ "economics": {
+  "titleHtml": "Cheaper power<br><span class=\"g\">makes cheaper heat.</span>",
+  "lede": "What one kWh of useful process heat costs, and what it emits, depending on where the heat comes from. The heat pump cuts cost on any power; green power is what cuts the carbon.",
+  "rows": [
+   {
+    "name": "PNG-fired boiler",
+    "sub": "₹55/SCM · 85% efficiency",
+    "costPerKwhTh": 6.22,
+    "co2PerKwhTh": 0.221,
+    "kind": "fuel"
+   },
+   {
+    "name": "Diesel (HSD) boiler",
+    "sub": "₹90/L · 85% efficiency",
+    "costPerKwhTh": 10.59,
+    "co2PerKwhTh": 0.315,
+    "kind": "fuel"
+   },
+   {
+    "name": "Heat pump on DISCOM power",
+    "sub": "₹8.5/kWh · COP 4.0",
+    "costPerKwhTh": 2.12,
+    "co2PerKwhTh": 0.179,
+    "kind": "grid"
+   },
+   {
+    "name": "Heat pump on green open access",
+    "sub": "₹5.5/kWh landed · COP 4.0",
+    "costPerKwhTh": 1.38,
+    "co2PerKwhTh": 0.0,
+    "kind": "green"
+   },
+   {
+    "name": "Heat pump in solar blocks + store",
+    "sub": "₹4.0/kWh · COP 4.0",
+    "costPerKwhTh": 1.0,
+    "co2PerKwhTh": 0.0,
+    "kind": "green"
+   }
+  ],
+  "note": "Illustrative only, not an offer. Assumptions: PNG 10.4 kWh/SCM, 1.95 kg CO₂/SCM; HSD 10.0 kWh/L, 2.68 kg CO₂/L; grid 0.716 kg CO₂/kWh (CEA baseline order of magnitude); green power treated as zero-emission on a market basis with green attributes retired. Heat pump COP 4.0 reflects hot water near 60 °C for pretreatment, lifted from compressor and chiller waste heat; COP falls as delivery temperature rises. Tariffs, fuel prices and COP vary by site and are replaced with metered values in the baseline."
+ },
+ "ergos": {
+  "titleHtml": "One screen.<br><span class=\"g\">Power and heat.</span>",
+  "lede": "ergOS is the operating layer. It sits on every meter, every source and every heat pump — watching prices, weather, storage and the production plan, and acting every 15 minutes.",
+  "cockpit": {
+   "title": "Plant 1 · paint shop + utilities",
+   "tiles": [
+    {
+     "label": "RE share MTD",
+     "valueColor": "var(--green)",
+     "value": "64%",
+     "subColor": "var(--green)",
+     "sub": "▲ open access"
+    },
+    {
+     "label": "Landed power",
+     "valueColor": "var(--ink)",
+     "value": "₹5.4/kWh",
+     "subColor": "var(--green)",
+     "sub": "▼ vs DISCOM"
+    },
+    {
+     "label": "Heat pump COP",
+     "valueColor": "var(--heat)",
+     "value": "3.9",
+     "subColor": "var(--mute)",
+     "sub": "HP-1 · HP-2"
+    },
+    {
+     "label": "Thermal store",
+     "valueColor": "var(--heat)",
+     "value": "78%",
+     "subColor": "var(--mute)",
+     "sub": "charging · solar block"
+    },
+    {
+     "label": "PNG avoided MTD",
+     "valueColor": "var(--ink)",
+     "value": "41,200 SCM",
+     "subColor": "var(--green)",
+     "sub": "▲ vs baseline"
+    },
+    {
+     "label": "CO₂ avoided MTD",
+     "valueColor": "var(--ink)",
+     "value": "96 t",
+     "subColor": "var(--green)",
+     "sub": "Scope 1 + 2"
+    }
+   ],
+   "ops": [
+    {
+     "color": "var(--green)",
+     "icon": "✓",
+     "text": "Day-ahead schedule sent to SLDC at 09:58"
+    },
+    {
+     "color": "var(--green)",
+     "icon": "✓",
+     "text": "GDAM bids cleared for blocks 37–64"
+    },
+    {
+     "color": "var(--heat)",
+     "icon": "●",
+     "text": "HP-2 charging the store in solar blocks until 15:30"
+    },
+    {
+     "color": "var(--esg)",
+     "icon": "!",
+     "text": "Pretreatment kWh per body +6% vs 30-day average — owner notified"
+    }
+   ]
+  },
+  "cards": [
+   {
+    "icon": "chart",
+    "title": "Forecast and trade",
+    "text": "96-block day-ahead load, SLDC scheduling, DAM, GDAM, RTM and GTAM bids, deviation settled block by block."
+   },
+   {
+    "icon": "flame",
+    "title": "Dispatch heat",
+    "text": "Heat pumps and thermal stores charged in the cheapest, greenest blocks, within process temperature limits."
+   },
+   {
+    "icon": "shield",
+    "title": "Bill and bank",
+    "text": "Banked-energy ledger, audit-ready billing and state-wise compliance tracked continuously."
+   }
+  ]
+ },
+ "esgos": {
+  "titleHtml": "ESG, operated.<br><span class=\"g\">Not reported.</span>",
+  "lede": "The same data that runs the plant produces the disclosure. Metered where possible, integrated where the data already lives, audited where it does not.",
+  "modes": [
+   {
+    "color": "green",
+    "kicker": "First choice",
+    "title": "Meter",
+    "text": "Electricity, steam, thermal energy, fuel flow and water — every 15 minutes."
+   },
+   {
+    "color": "data",
+    "kicker": "Second",
+    "title": "Integrate",
+    "text": "ERP, HRMS, EHS tools and portals — no retyping."
+   },
+   {
+    "color": "esg",
+    "kicker": "Last resort",
+    "title": "Audit",
+    "text": "Refrigerant, waste, safety and supplier data — photo-evidenced and signed off."
+   }
+  ],
+  "outputsLabel": "What esgOS produces for automotive",
+  "outputs": [
+   "BRSR and BRSR Core-format disclosures",
+   "OEM supplier sustainability questionnaires and Scope 3 data requests",
+   "CBAM embedded-emissions data for iron, steel and aluminium goods exported to the EU",
+   "Carbon footprint per part and per vehicle set",
+   "CDP climate response and assurance support",
+   "Green attribute tracking — iREC eligibility for renewable consumption",
+   "Emission-intensity baseline for the Carbon Credit Trading Scheme",
+   "Packaging EPR, consents and licence calendar"
+  ],
+  "calloutHtml": "<b>Deterministic by design.</b> Regulations and methodologies are stored as versioned, machine-readable rules and run by a rule engine. AI extracts, explains and drafts — it never produces a reported number."
+ },
+ "models": {
+  "titleHtml": "Four ways in.<br><span class=\"g\">One provider.</span>",
+  "lede": "Start where the value is largest for your plant. Models combine — most clients begin with Advisory and SaaS on power, then add heat.",
+  "items": [
+   {
+    "color": "green",
+    "kicker": "Model 01",
+    "title": "Advisory",
+    "text": "Power strategy and delivery, from RE-100 roadmap to live open access.",
+    "rows": [
+     [
+      "Scope",
+      "RE-100 roadmap, RfP and reverse auction, PPA, approvals, ABT metering, regulatory filings"
+     ],
+     [
+      "You pay",
+      "Fixed fee, with a success-fee option"
+     ],
+     [
+      "Assets",
+      "Owned by you or your developer"
+     ],
+     [
+      "Best for",
+      "Plants ready to contract green power"
+     ]
+    ]
+   },
+   {
+    "color": "data",
+    "kicker": "Model 02",
+    "title": "SaaS",
+    "text": "ergOS and esgOS as a subscription — the operating and disclosure layers.",
+    "rows": [
+     [
+      "Scope",
+      "15-minute metering, forecasting, trading support, heat dispatch, ESG pipeline and reports"
+     ],
+     [
+      "You pay",
+      "Per plant, per year"
+     ],
+     [
+      "Assets",
+      "Meters per BOQ; platform hosted"
+     ],
+     [
+      "Best for",
+      "Multi-plant groups that want one source of truth"
+     ]
+    ]
+   },
+   {
+    "color": "heat",
+    "kicker": "Model 03",
+    "title": "Heat Advisory",
+    "text": "Engineering-grade route from boiler to heat pump, with you owning the asset.",
+    "rows": [
+     [
+      "Scope",
+      "Heat audit and metering, pinch and waste-heat study, heat pump sizing, vendor selection, EPC oversight, commissioning"
+     ],
+     [
+      "You pay",
+      "Fixed fee per study and per project stage"
+     ],
+     [
+      "Assets",
+      "Owned by you (capex)"
+     ],
+     [
+      "Best for",
+      "Plants with capex budget and a fuel-cost target"
+     ]
+    ]
+   },
+   {
+    "color": "heat",
+    "kicker": "Model 04",
+    "title": "Heat as a Service",
+    "text": "You buy heat, not equipment. Hot water and low-pressure steam delivered to your header.",
+    "rows": [
+     [
+      "Scope",
+      "Design, install, own, operate and maintain heat pumps and storage; powered by jouleWise green power; run on ergOS"
+     ],
+     [
+      "You pay",
+      "Per unit of heat delivered, priced against your current fuel cost"
+     ],
+     [
+      "Assets",
+      "Owned on the jouleWise side — zero upfront capex"
+     ],
+     [
+      "Best for",
+      "Plants that want green steam now, off balance sheet"
+     ]
+    ]
+   }
+  ],
+  "note": "Commercial terms indicative and finalised per engagement."
+ },
+ "roadmap": {
+  "titleHtml": "Baseline.<br>Power. Heat.<br><span class=\"g\">Proof.</span>",
+  "steps": [
+   {
+    "title": "Baseline",
+    "when": "Weeks 1–4",
+    "text": "Bills, load survey, fuel and steam records, portable heat metering on candidate processes, ESG data map.",
+    "outcome": "Signed-off energy, heat and carbon baseline"
+   },
+   {
+    "title": "Roadmap",
+    "when": "Weeks 4–8",
+    "text": "RE-100 power plan, heat pump shortlist for pretreatment, washers and hot water, and the ESG data map — in one business case.",
+    "outcome": "One business case — power, heat, ESG"
+   },
+   {
+    "title": "Meter and log",
+    "when": "Weeks 6–12",
+    "text": "ABT metering at the incomer and data loggers on power, heat, fuel and water lines — the measured base every later step is sized, settled and reported on.",
+    "outcome": "ergOS live on metered data"
+   },
+   {
+    "title": "Power live",
+    "when": "~3 months after roadmap",
+    "text": "Open access contracted and approved; rooftop solar and BESS where they fit; every source orchestrated against demand on ergOS.",
+    "outcome": "Green power flowing"
+   },
+   {
+    "title": "Heat live",
+    "when": "Pilot, then scale",
+    "text": "One heat pump and thermal store on pretreatment, metered on ergOS; then washers, booth air and hot water across shops.",
+    "outcome": "Fuel displaced, measured on ergOS"
+   },
+   {
+    "title": "Operate and disclose",
+    "when": "Every block · every year",
+    "text": "ergOS runs power and heat; esgOS publishes BRSR Core-format, CBAM, CDP and customer disclosures with an audit trail.",
+    "outcome": "Assurance-ready numbers"
+   }
+  ],
+  "note": "Timelines indicative; confirmed after the baseline and dependent on state approvals and equipment lead times."
+ },
+ "trackRecord": {
+  "titleHtml": "~1 GW of<br>RE-100 study scope.",
+  "lede": "RE-100 assignments across eight industrial groups, cement to FMCG. Deep Indian power-sector regulatory work, with team experience on lender's-engineer mandates.",
+  "clients": [
+   [
+    "Dalmia Cement",
+    "Cement",
+    "~300 MW"
+   ],
+   [
+    "Chettinad Cement",
+    "Cement",
+    "~200 MW"
+   ],
+   [
+    "SAEL",
+    "Solar cells",
+    "~160 MW"
+   ],
+   [
+    "Wonder Cement",
+    "Cement",
+    "~140 MW"
+   ],
+   [
+    "Haldiram's",
+    "Snacks & beverages",
+    "~35 MW"
+   ],
+   [
+    "Bikaji",
+    "Snacks",
+    "~25 MW"
+   ],
+   [
+    "Bharatiyam (Campa)",
+    "Beverages",
+    "~19 MW"
+   ]
+  ],
+  "stats": [
+   [
+    "1 GW+",
+    "RE project work by our team"
+   ],
+   [
+    "15+",
+    "state regulatory jurisdictions"
+   ],
+   [
+    "8",
+    "industries served"
+   ],
+   [
+    "20+",
+    "years of leadership in energy"
+   ]
+  ],
+  "note": "Industries: food & beverages, FMCG, cement, chemicals, textiles, metals, automotive ancillary, solar manufacturing, real estate. ISO 9001:2015 · ISO 27001."
+ },
+ "contact": {
+  "titleHtml": "Tell us the plant.<br><span class=\"g\">We'll map the stack.</span>",
+  "lede": "Send one year of electricity bills and fuel records. We return the baseline, the power-and-heat roadmap and the business case.",
+  "people": [
+   {
+    "area": "Electricity",
+    "color": "green",
+    "name": "Praveen Sharma",
+    "email": "praveen.sharma@joulewise.com",
+    "phone": "+91 92143 37500"
+   },
+   {
+    "area": "Heat",
+    "color": "heat",
+    "name": "Gautam Prasad",
+    "email": "gautam.prasad@joulewise.com",
+    "phone": null
+   }
+  ],
+  "company": {
+   "site": "joulewise.com",
+   "legal": "jouleWise Advisory Services Pvt Ltd · Noida, India · Spain · ISO 9001:2015 · ISO 27001"
+  },
+  "disclaimer": "This presentation is issued for discussion purposes only. Prices, durations, heat pump performance and outcomes shown are indicative, depend on site, state, load profile, process temperatures, contracted terms, exchange prices and the regulatory orders in force, and do not constitute an offer, warranty or commitment by jouleWise. Screens and plant illustrations are illustrative. Client names are cited from jouleWise assignments. Any engagement is governed solely by definitive agreements between the parties."
+ },
+ "svg": {
+  "coverStack": "<svg viewBox=\"0 0 600 445\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"The jouleWise decarbonisation stack: power, heat, data and ESG layers\"><polygon points=\"78.5,314.0 250.0,413.0 250.0,403.1 78.5,304.1\" fill=\"#15181b\" stroke=\"#3dd68c\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"421.5,314.0 250.0,413.0 250.0,403.1 421.5,304.1\" fill=\"#101315\" stroke=\"#3dd68c\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"250.0,205.1 421.5,304.1 250.0,403.1 78.5,304.1\" fill=\"#101a15\" stroke=\"#3dd68c\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polyline points=\"284.3,224.9 112.8,323.9\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"215.7,224.9 387.2,323.9\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"318.6,244.7 147.1,343.7\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"181.4,244.7 352.9,343.7\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"352.9,264.5 181.4,363.5\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"147.1,264.5 318.6,363.5\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"387.2,284.3 215.7,383.3\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"112.8,284.3 284.3,383.3\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><line x1=\"335.7\" y1=\"359.0\" x2=\"470.0\" y2=\"329.0\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><text x=\"478\" y=\"329.0\" fill=\"#3dd68c\" font-size=\"13\" letter-spacing=\"2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">POWER</text><text x=\"478\" y=\"346.0\" fill=\"#8b949a\" font-size=\"11\" letter-spacing=\"1.2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">GREEN SUPPLY</text><polygon points=\"78.5,251.0 250.0,350.0 250.0,340.1 78.5,241.1\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"421.5,251.0 250.0,350.0 250.0,340.1 421.5,241.1\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"250.0,142.1 421.5,241.1 250.0,340.1 78.5,241.1\" fill=\"#121518\" stroke=\"#f2994a\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polyline points=\"284.3,161.9 112.8,260.9\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"215.7,161.9 387.2,260.9\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"318.6,181.7 147.1,280.7\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"181.4,181.7 352.9,280.7\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"352.9,201.5 181.4,300.5\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"147.1,201.5 318.6,300.5\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"387.2,221.3 215.7,320.3\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"112.8,221.3 284.3,320.3\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><line x1=\"335.7\" y1=\"296.0\" x2=\"470.0\" y2=\"266.0\" stroke=\"#f2994a\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><text x=\"478\" y=\"266.0\" fill=\"#f2994a\" font-size=\"13\" letter-spacing=\"2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">HEAT</text><text x=\"478\" y=\"283.0\" fill=\"#8b949a\" font-size=\"11\" letter-spacing=\"1.2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">HEAT PUMPS</text><polygon points=\"78.5,188.0 250.0,287.0 250.0,277.1 78.5,178.1\" fill=\"#15181b\" stroke=\"#5b8def\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"421.5,188.0 250.0,287.0 250.0,277.1 421.5,178.1\" fill=\"#101315\" stroke=\"#5b8def\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"250.0,79.1 421.5,178.1 250.0,277.1 78.5,178.1\" fill=\"#121518\" stroke=\"#5b8def\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polyline points=\"284.3,98.9 112.8,197.9\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"215.7,98.9 387.2,197.9\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"318.6,118.7 147.1,217.7\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"181.4,118.7 352.9,217.7\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"352.9,138.5 181.4,237.5\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"147.1,138.5 318.6,237.5\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"387.2,158.3 215.7,257.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"112.8,158.3 284.3,257.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><line x1=\"335.7\" y1=\"233.0\" x2=\"470.0\" y2=\"203.0\" stroke=\"#5b8def\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><text x=\"478\" y=\"203.0\" fill=\"#5b8def\" font-size=\"13\" letter-spacing=\"2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">DATA</text><text x=\"478\" y=\"220.0\" fill=\"#8b949a\" font-size=\"11\" letter-spacing=\"1.2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">ergOS</text><polygon points=\"78.5,125.0 250.0,224.0 250.0,214.1 78.5,115.1\" fill=\"#15181b\" stroke=\"#c9a43a\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"421.5,125.0 250.0,224.0 250.0,214.1 421.5,115.1\" fill=\"#101315\" stroke=\"#c9a43a\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polygon points=\"250.0,16.1 421.5,115.1 250.0,214.1 78.5,115.1\" fill=\"#121518\" stroke=\"#c9a43a\" stroke-width=\"1.3\" stroke-linejoin=\"round\" /><polyline points=\"284.3,35.9 112.8,134.9\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"215.7,35.9 387.2,134.9\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"318.6,55.7 147.1,154.7\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"181.4,55.7 352.9,154.7\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"352.9,75.5 181.4,174.5\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"147.1,75.5 318.6,174.5\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"387.2,95.3 215.7,194.3\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><polyline points=\"112.8,95.3 284.3,194.3\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"0.45\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.35\"/><line x1=\"335.7\" y1=\"170.0\" x2=\"470.0\" y2=\"140.0\" stroke=\"#c9a43a\" stroke-width=\"1\" stroke-dasharray=\"2 3\"/><text x=\"478\" y=\"140.0\" fill=\"#c9a43a\" font-size=\"13\" letter-spacing=\"2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">ESG</text><text x=\"478\" y=\"157.0\" fill=\"#8b949a\" font-size=\"11\" letter-spacing=\"1.2\" font-family=\"IBM Plex Mono, monospace\" dominant-baseline=\"central\">esgOS</text><polyline points=\"250.0,259.1 250.0,70.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"250.0,259.1 250.0,70.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><polyline points=\"327.9,304.1 327.9,115.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"327.9,304.1 327.9,115.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><polyline points=\"211.0,326.6 211.0,137.6\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"211.0,326.6 211.0,137.6\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/></svg>",
+  "loop": "<svg viewBox=\"0 0 760 480\" role=\"img\" aria-label=\"Ecosystem loop: green power feeds heat pumps and thermal storage, ergOS orchestrates, esgOS discloses\"><defs><marker id=\"ar\" viewBox=\"0 0 10 10\" refX=\"6\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10z\" fill=\"#5d666c\"/></marker></defs><circle cx=\"380\" cy=\"262\" r=\"168\" fill=\"none\" stroke=\"#1e2327\" stroke-width=\"1\"/><path class=\"flow\" d=\"M420.6,99.0 A168,168 0 0 1 522.5,173.0\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"2\" stroke-dasharray=\"3 8\" marker-end=\"url(#ar)\"/><path class=\"flow\" d=\"M547.6,250.3 A168,168 0 0 1 508.7,370.0\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"2\" stroke-dasharray=\"3 8\" marker-end=\"url(#ar)\"/><path class=\"flow\" d=\"M442.9,417.8 A168,168 0 0 1 317.1,417.8\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"2\" stroke-dasharray=\"3 8\" marker-end=\"url(#ar)\"/><path class=\"flow\" d=\"M251.3,370.0 A168,168 0 0 1 212.4,250.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"2\" stroke-dasharray=\"3 8\" marker-end=\"url(#ar)\"/><path class=\"flow\" d=\"M237.5,173.0 A168,168 0 0 1 339.4,99.0\" fill=\"none\" stroke=\"#c9a43a\" stroke-width=\"2\" stroke-dasharray=\"3 8\" marker-end=\"url(#ar)\"/><circle cx=\"380.0\" cy=\"94.0\" r=\"34\" fill=\"#0c0f11\" stroke=\"#3dd68c\" stroke-width=\"1.6\"/><circle cx=\"380.0\" cy=\"94.0\" r=\"5\" fill=\"#3dd68c\"/><text x=\"428.0\" y=\"86.0\" fill=\"#3dd68c\" font-size=\"17\" font-weight=\"700\" letter-spacing=\"1\" text-anchor=\"start\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">GREEN POWER</text><text x=\"428.0\" y=\"106.0\" fill=\"#8b949a\" font-size=\"12.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">open access · rooftop · BESS</text><circle cx=\"539.8\" cy=\"210.1\" r=\"34\" fill=\"#0c0f11\" stroke=\"#f2994a\" stroke-width=\"1.6\"/><circle cx=\"539.8\" cy=\"210.1\" r=\"5\" fill=\"#f2994a\"/><text x=\"585.8\" y=\"206.1\" fill=\"#f2994a\" font-size=\"17\" font-weight=\"700\" letter-spacing=\"1\" text-anchor=\"start\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">HEAT PUMPS</text><text x=\"585.8\" y=\"226.1\" fill=\"#8b949a\" font-size=\"12.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">hot water · LP steam</text><circle cx=\"478.7\" cy=\"397.9\" r=\"34\" fill=\"#0c0f11\" stroke=\"#f2994a\" stroke-width=\"1.6\"/><circle cx=\"478.7\" cy=\"397.9\" r=\"5\" fill=\"#f2994a\"/><text x=\"524.7\" y=\"393.9\" fill=\"#f2994a\" font-size=\"17\" font-weight=\"700\" letter-spacing=\"1\" text-anchor=\"start\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">THERMAL STORE</text><text x=\"524.7\" y=\"413.9\" fill=\"#8b949a\" font-size=\"12.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">heat made in cheap blocks</text><circle cx=\"281.3\" cy=\"397.9\" r=\"34\" fill=\"#0c0f11\" stroke=\"#5b8def\" stroke-width=\"1.6\"/><circle cx=\"281.3\" cy=\"397.9\" r=\"5\" fill=\"#5b8def\"/><text x=\"235.3\" y=\"393.9\" fill=\"#5b8def\" font-size=\"17\" font-weight=\"700\" letter-spacing=\"1\" text-anchor=\"end\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">ergOS</text><text x=\"235.3\" y=\"413.9\" fill=\"#8b949a\" font-size=\"12.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">meters · forecasts · trades</text><circle cx=\"220.2\" cy=\"210.1\" r=\"34\" fill=\"#0c0f11\" stroke=\"#c9a43a\" stroke-width=\"1.6\"/><circle cx=\"220.2\" cy=\"210.1\" r=\"5\" fill=\"#c9a43a\"/><text x=\"174.2\" y=\"206.1\" fill=\"#c9a43a\" font-size=\"17\" font-weight=\"700\" letter-spacing=\"1\" text-anchor=\"end\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">esgOS</text><text x=\"174.2\" y=\"226.1\" fill=\"#8b949a\" font-size=\"12.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">Scope 1·2·3 · BRSR</text><text x=\"380\" y=\"254\" fill=\"#eef0f1\" font-size=\"30\" font-weight=\"800\" text-anchor=\"middle\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">ONE</text><text x=\"380\" y=\"286\" fill=\"#eef0f1\" font-size=\"30\" font-weight=\"800\" text-anchor=\"middle\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">PROVIDER</text><text x=\"380\" y=\"314\" fill=\"#3dd68c\" font-size=\"11\" letter-spacing=\"2.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">SAVINGS FUND THE NEXT STEP</text></svg>",
+  "cycle": "<svg viewBox=\"0 0 760 432\" role=\"img\" aria-label=\"Heat pump cycle: evaporator absorbs free heat, compressor lifts it with electricity, condenser releases useful heat, expansion valve resets\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"7\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10z\" fill=\"context-stroke\"/></marker><marker id=\"ahb\" viewBox=\"0 0 10 10\" refX=\"7\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10z\" fill=\"#5b8def\"/></marker><marker id=\"aho\" viewBox=\"0 0 10 10\" refX=\"7\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10z\" fill=\"#f2994a\"/></marker></defs><path d=\"M180,160 L180,110 L346,110\" fill=\"none\" stroke=\"#8fb3f5\" stroke-width=\"7\" stroke-opacity=\".18\"/><path class=\"flow\" d=\"M180,160 L180,110 L346,110\" fill=\"none\" stroke=\"#8fb3f5\" stroke-width=\"2.4\" stroke-dasharray=\"4 8\"/><path d=\"M414,110 L580,110 L580,160\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"7\" stroke-opacity=\".18\"/><path class=\"flow\" d=\"M414,110 L580,110 L580,160\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"2.4\" stroke-dasharray=\"4 8\"/><path d=\"M580,280 L580,330 L404,330\" fill=\"none\" stroke=\"#f7c08f\" stroke-width=\"7\" stroke-opacity=\".18\"/><path class=\"flow\" d=\"M580,280 L580,330 L404,330\" fill=\"none\" stroke=\"#f7c08f\" stroke-width=\"2.4\" stroke-dasharray=\"4 8\"/><path d=\"M356,330 L180,330 L180,280\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"7\" stroke-opacity=\".18\"/><path class=\"flow\" d=\"M356,330 L180,330 L180,280\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"2.4\" stroke-dasharray=\"4 8\"/><rect x=\"150\" y=\"160\" width=\"60\" height=\"120\" fill=\"#0f1726\" stroke=\"#5b8def\" stroke-width=\"1.6\"/><polyline points=\"162,170 198,180 162,190 198,200 162,210 198,220 162,230 198,240 162,250 198,260 162,270\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"1.4\"/><rect x=\"550\" y=\"160\" width=\"60\" height=\"120\" fill=\"#231709\" stroke=\"#f2994a\" stroke-width=\"1.6\"/><polyline points=\"562,170 598,180 562,190 598,200 562,210 598,220 562,230 598,240 562,250 598,260 562,270\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"1.4\"/><circle cx=\"380\" cy=\"110\" r=\"34\" fill=\"#141719\" stroke=\"#dfe3e6\" stroke-width=\"1.6\"/><path d=\"M366,98 L394,110 L366,122\" fill=\"none\" stroke=\"#dfe3e6\" stroke-width=\"1.6\"/><line x1=\"380\" y1=\"30\" x2=\"380\" y2=\"70\" stroke=\"#3dd68c\" stroke-width=\"2.2\" marker-end=\"url(#ah)\"/><path d=\"M388,14 l-8,11 h7 l-3,9 l9,-12 h-7z\" fill=\"#3dd68c\"/><text x=\"400\" y=\"30\" fill=\"#3dd68c\" font-size=\"13\" letter-spacing=\"1.5\" font-family=\"IBM Plex Mono,monospace\">ELECTRICITY · 1 kWh</text><path d=\"M356,316 L404,344 L404,316 L356,344z\" fill=\"#141719\" stroke=\"#dfe3e6\" stroke-width=\"1.6\"/><line x1=\"20\" y1=\"190\" x2=\"136\" y2=\"190\" stroke=\"#5b8def\" stroke-width=\"2\" marker-end=\"url(#ahb)\"/><line x1=\"624\" y1=\"190\" x2=\"740\" y2=\"190\" stroke=\"#f2994a\" stroke-width=\"2\" marker-end=\"url(#aho)\"/><line x1=\"20\" y1=\"220\" x2=\"136\" y2=\"220\" stroke=\"#5b8def\" stroke-width=\"2\" marker-end=\"url(#ahb)\"/><line x1=\"624\" y1=\"220\" x2=\"740\" y2=\"220\" stroke=\"#f2994a\" stroke-width=\"2\" marker-end=\"url(#aho)\"/><line x1=\"20\" y1=\"250\" x2=\"136\" y2=\"250\" stroke=\"#5b8def\" stroke-width=\"2\" marker-end=\"url(#ahb)\"/><line x1=\"624\" y1=\"250\" x2=\"740\" y2=\"250\" stroke=\"#f2994a\" stroke-width=\"2\" marker-end=\"url(#aho)\"/><text x=\"20\" y=\"140\" fill=\"#5b8def\" font-size=\"17\" font-weight=\"700\" text-anchor=\"start\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">FREE HEAT</text><text x=\"20\" y=\"162\" fill=\"#5b8def\" font-size=\"15\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">2.5 kWh</text><text x=\"20\" y=\"284\" fill=\"#8b949a\" font-size=\"11.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">air · waste heat</text><text x=\"20\" y=\"300\" fill=\"#8b949a\" font-size=\"11.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">chiller return</text><text x=\"20\" y=\"316\" fill=\"#8b949a\" font-size=\"11.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">20–40 °C</text><text x=\"740\" y=\"140\" fill=\"#f2994a\" font-size=\"17\" font-weight=\"700\" text-anchor=\"end\" font-family=\"Inter Tight,Helvetica,Arial,sans-serif\">USEFUL HEAT</text><text x=\"740\" y=\"162\" fill=\"#f2994a\" font-size=\"15\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">3.5 kWh</text><text x=\"740\" y=\"284\" fill=\"#8b949a\" font-size=\"11.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">hot water</text><text x=\"740\" y=\"300\" fill=\"#8b949a\" font-size=\"11.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">low-pressure steam</text><text x=\"740\" y=\"316\" fill=\"#8b949a\" font-size=\"11.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">up to 120 °C</text><text x=\"222\" y=\"222\" fill=\"#eef0f1\" font-size=\"12.5\" font-weight=\"600\" letter-spacing=\"1.2\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">01 EVAPORATE</text><text x=\"222\" y=\"239\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">refrigerant boils,</text><text x=\"222\" y=\"253\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\">soaking up low heat</text><text x=\"380\" y=\"170\" fill=\"#eef0f1\" font-size=\"12.5\" font-weight=\"600\" letter-spacing=\"1.2\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">02 COMPRESS</text><text x=\"380\" y=\"187\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">electricity squeezes the</text><text x=\"380\" y=\"201\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">gas — it gets hot</text><text x=\"538\" y=\"222\" fill=\"#eef0f1\" font-size=\"12.5\" font-weight=\"600\" letter-spacing=\"1.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">03 CONDENSE</text><text x=\"538\" y=\"239\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">hot gas gives its heat</text><text x=\"538\" y=\"253\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\">to process water</text><text x=\"380\" y=\"364\" fill=\"#eef0f1\" font-size=\"12.5\" font-weight=\"600\" letter-spacing=\"1.2\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">04 EXPAND</text><text x=\"380\" y=\"381\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">pressure drops, it goes</text><text x=\"380\" y=\"395\" fill=\"#8b949a\" font-size=\"11\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">cold — and repeats</text><text x=\"380\" y=\"422\" fill=\"#5d666c\" font-size=\"10.5\" letter-spacing=\"2\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">REFRIGERANT CIRCUIT · CLOSED LOOP · ILLUSTRATIVE COP 3.5</text></svg>",
+  "scene": "<svg viewBox=\"0 0 800 585\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Automotive plant supply chain with jouleWise intervention points\"><polygon points=\"272.6,197.0 674.1,428.8 437.1,565.6 35.7,333.8\" fill=\"none\" stroke=\"#2a3035\" stroke-width=\"1\" stroke-linejoin=\"round\" stroke-dasharray=\"4 5\"/><polygon points=\"443.7,112.6 542.4,169.6 531.9,181.8 433.2,124.8\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.8\" stroke-linejoin=\"round\" /><polyline points=\"457.8,120.8 447.3,132.9\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"471.9,128.9 461.4,141.1\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"486.0,137.1 475.5,149.2\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"500.1,145.2 489.6,157.4\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"514.2,153.4 503.7,165.5\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"528.3,161.5 517.8,173.7\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"427.9,121.8 526.7,178.8 516.1,190.9 417.4,133.9\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.8\" stroke-linejoin=\"round\" /><polyline points=\"442.0,129.9 431.5,142.1\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"456.1,138.0 445.6,150.2\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"470.2,146.2 459.7,158.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"484.3,154.3 473.8,166.5\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"498.4,162.5 487.9,174.6\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"512.5,170.6 502.0,182.8\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"412.1,130.9 510.9,187.9 500.3,200.0 401.6,143.0\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.8\" stroke-linejoin=\"round\" /><polyline points=\"426.2,139.0 415.7,151.2\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"440.3,147.2 429.8,159.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"454.4,155.3 443.9,167.5\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"468.5,163.5 458.0,175.6\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"482.6,171.6 472.1,183.8\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"496.8,179.7 486.2,191.9\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"396.3,140.0 495.1,197.0 484.5,209.2 385.8,152.2\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.8\" stroke-linejoin=\"round\" /><polyline points=\"410.4,148.1 399.9,160.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"424.5,156.3 414.0,168.4\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"438.6,164.4 428.1,176.6\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"452.8,172.6 442.2,184.7\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"466.9,180.7 456.3,192.9\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"481.0,188.9 470.4,201.0\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><line x1=\"575.4\" y1=\"212.2\" x2=\"575.4\" y2=\"83.0\" stroke=\"#8a949b\" stroke-width=\"1.6\"/><g class=\"rotor\" style=\"transform-origin:575.4px 83.0px\"><line x1=\"575.4\" y1=\"83.0\" x2=\"618.6\" y2=\"90.6\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"575.4\" y1=\"83.0\" x2=\"547.1\" y2=\"116.7\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"575.4\" y1=\"83.0\" x2=\"560.3\" y2=\"41.7\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></g><circle cx=\"575.4\" cy=\"83.0\" r=\"1.8\" fill=\"#c9d1d6\"/><line x1=\"628.0\" y1=\"227.4\" x2=\"628.0\" y2=\"98.2\" stroke=\"#8a949b\" stroke-width=\"1.6\"/><g class=\"rotor\" style=\"transform-origin:628.0px 98.2px\"><line x1=\"628.0\" y1=\"98.2\" x2=\"643.0\" y2=\"139.5\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"628.0\" y1=\"98.2\" x2=\"584.7\" y2=\"90.6\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"628.0\" y1=\"98.2\" x2=\"656.2\" y2=\"64.5\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></g><circle cx=\"628.0\" cy=\"98.2\" r=\"1.8\" fill=\"#c9d1d6\"/><line x1=\"641.2\" y1=\"257.8\" x2=\"641.2\" y2=\"143.8\" stroke=\"#8a949b\" stroke-width=\"1.6\"/><g class=\"rotor\" style=\"transform-origin:641.2px 143.8px\"><line x1=\"641.2\" y1=\"143.8\" x2=\"670.9\" y2=\"168.7\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"641.2\" y1=\"143.8\" x2=\"604.7\" y2=\"157.1\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"641.2\" y1=\"143.8\" x2=\"647.9\" y2=\"105.6\" stroke=\"#c9d1d6\" stroke-width=\"1.4\" stroke-linecap=\"round\"/></g><circle cx=\"641.2\" cy=\"143.8\" r=\"1.8\" fill=\"#c9d1d6\"/><path d=\"M629.3,281.4 L634.6,208.4 L639.9,287.4 M625.6,223.6 L643.6,223.6 M632.0,244.9 L637.2,247.9\" fill=\"none\" stroke=\"#6b757c\" stroke-width=\"1\"/><path d=\"M626.0,313.7 L631.3,240.7 L636.6,319.7 M622.3,255.9 L640.3,255.9 M628.7,277.2 L633.9,280.2\" fill=\"none\" stroke=\"#6b757c\" stroke-width=\"1\"/><polyline points=\"634.6,223.6 631.3,255.9 621.4,330.0\" fill=\"none\" stroke=\"#5d676e\" stroke-width=\"0.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polygon points=\"562.2,356.6 621.4,390.8 621.4,387.8 562.2,353.6\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"667.5,364.2 621.4,390.8 621.4,387.8 667.5,361.2\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"608.3,327.0 667.5,361.2 621.4,387.8 562.2,353.6\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"593.8,342.9 610.9,352.8 610.9,333.0 593.8,323.2\" fill=\"#15181b\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"625.4,344.4 610.9,352.8 610.9,333.0 625.4,324.7\" fill=\"#101315\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"608.3,314.8 625.4,324.7 610.9,333.0 593.8,323.2\" fill=\"#1c2024\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"620.1,358.1 637.2,368.0 637.2,348.2 620.1,338.4\" fill=\"#15181b\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"651.7,359.6 637.2,368.0 637.2,348.2 651.7,339.9\" fill=\"#101315\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"634.6,330.0 651.7,339.9 637.2,348.2 620.1,338.4\" fill=\"#1c2024\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"576.0,353.2 619.5,378.3 619.5,367.6 576.0,342.5\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"630.0,372.2 619.5,378.3 619.5,367.6 630.0,361.5\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"586.5,336.5 630.0,361.5 619.5,367.6 576.0,342.5\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"668.2,379.0 710.9,403.7 710.9,384.0 668.2,359.3\" fill=\"#0f1a14\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"726.7,394.6 710.9,403.7 710.9,384.0 726.7,374.8\" fill=\"#101315\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"684.0,350.1 726.7,374.8 710.9,384.0 668.2,359.3\" fill=\"#1c2024\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polyline points=\"675.3,381.6 675.3,364.9\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"682.4,385.7 682.4,369.0\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"689.5,389.9 689.5,373.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"696.7,394.0 696.7,377.2\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"703.8,398.1 703.8,381.4\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"647.1,391.2 689.9,415.9 689.9,396.1 647.1,371.4\" fill=\"#0f1a14\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"705.7,406.8 689.9,415.9 689.9,396.1 705.7,387.0\" fill=\"#101315\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"662.9,362.3 705.7,387.0 689.9,396.1 647.1,371.4\" fill=\"#1c2024\" stroke=\"#3dd68c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polyline points=\"654.2,393.8 654.2,377.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"661.4,397.9 661.4,381.2\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"668.5,402.0 668.5,385.3\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"675.6,406.1 675.6,389.4\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"682.7,410.2 682.7,393.5\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"588.5,371.0 578.0,377.1 281.8,206.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"3.6\" opacity=\".3\"/><polyline class=\"flow\" points=\"588.5,371.0 578.0,377.1 281.8,206.1\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"3 9\"/><polygon points=\"187.0,269.2 279.2,322.4 279.2,276.8 187.0,223.6\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"364.7,273.0 279.2,322.4 279.2,276.8 364.7,227.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"272.6,174.2 364.7,227.4 279.2,276.8 187.0,223.6\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"190.7,250.8 201.8,257.2 201.8,243.5 190.7,237.1\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"209.2,261.4 220.2,267.8 220.2,254.2 209.2,247.8\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"227.6,272.1 238.6,278.5 238.6,264.8 227.6,258.4\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"246.0,282.7 257.1,289.1 257.1,275.4 246.0,269.0\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"264.4,293.4 275.5,299.8 275.5,286.1 264.4,279.7\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"269.8,175.1 351.4,222.2 339.8,235.0 258.2,187.9\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.7\" stroke-linejoin=\"round\" /><polyline points=\"286.1,184.5 274.5,197.3\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"302.4,193.9 290.8,206.7\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"318.8,203.3 307.1,216.1\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"335.1,212.8 323.4,225.6\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"251.0,185.9 332.6,233.0 321.0,245.8 239.4,198.7\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.7\" stroke-linejoin=\"round\" /><polyline points=\"267.4,195.3 255.7,208.1\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"283.7,204.7 272.0,217.5\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"300.0,214.2 288.4,227.0\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"316.3,223.6 304.7,236.4\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"232.3,196.7 313.9,243.8 302.3,256.6 220.6,209.5\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.7\" stroke-linejoin=\"round\" /><polyline points=\"248.6,206.1 237.0,218.9\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"264.9,215.6 253.3,228.4\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"281.2,225.0 269.6,237.8\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"297.6,234.4 285.9,247.2\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"213.5,207.6 295.1,254.7 283.5,267.5 201.9,220.3\" fill=\"#2a4a7a\" stroke=\"#5b8def\" stroke-width=\"0.7\" stroke-linejoin=\"round\" /><polyline points=\"229.8,217.0 218.2,229.8\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"246.2,226.4 234.5,239.2\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"262.5,235.8 250.9,248.6\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polyline points=\"278.8,245.3 267.2,258.0\" fill=\"none\" stroke=\"#5b8def\" stroke-width=\"0.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.6\"/><polygon points=\"292.3,330.0 371.3,375.6 371.3,333.8 292.3,288.2\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"456.9,326.2 371.3,375.6 371.3,333.8 456.9,284.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"377.9,238.8 456.9,284.4 371.3,333.8 292.3,288.2\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"377.9,238.8 292.3,288.2 312.1,282.9 397.7,233.5\" fill=\"#22272b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"397.7,250.2 312.1,299.6 312.1,282.9 397.7,233.5\" fill=\"#1a2a3a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"397.7,250.2 312.1,299.6 331.8,294.3 417.4,244.9\" fill=\"#22272b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"417.4,261.6 331.8,311.0 331.8,294.3 417.4,244.9\" fill=\"#1a2a3a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"417.4,261.6 331.8,311.0 351.6,305.7 437.1,256.3\" fill=\"#22272b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"437.1,273.0 351.6,322.4 351.6,305.7 437.1,256.3\" fill=\"#1a2a3a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"437.1,273.0 351.6,322.4 371.3,317.1 456.9,267.7\" fill=\"#22272b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"456.9,284.4 371.3,333.8 371.3,317.1 456.9,267.7\" fill=\"#1a2a3a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"296.3,313.5 308.1,320.3 308.1,307.8 296.3,300.9\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"316.0,324.9 327.9,331.7 327.9,319.2 316.0,312.3\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"335.8,336.3 347.6,343.1 347.6,330.6 335.8,323.7\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"355.5,347.7 367.4,354.5 367.4,342.0 355.5,335.1\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><path d=\"M449.4,204.6 L449.4,333.8 A7.4,4.3 0 0 0 464.3,333.8 L464.3,204.6 Z\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"456.9\" cy=\"204.6\" rx=\"7.4\" ry=\"4.3\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\"/><path d=\"M449.4,288.2 A7.4,4.3 0 0 0 464.3,288.2\" fill=\"none\" stroke=\"#4a535a\" stroke-width=\".8\"/><path d=\"M449.4,242.6 A7.4,4.3 0 0 0 464.3,242.6\" fill=\"none\" stroke=\"#4a535a\" stroke-width=\".8\"/><polygon points=\"470.1,333.8 549.0,379.4 463.5,428.8 384.5,383.2\" fill=\"#171b1e\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polyline points=\"483.2,341.3 397.7,390.7\" fill=\"none\" stroke=\"#20262a\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polyline points=\"496.4,348.9 410.8,398.3\" fill=\"none\" stroke=\"#20262a\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polyline points=\"509.5,356.5 424.0,405.9\" fill=\"none\" stroke=\"#20262a\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polyline points=\"522.7,364.1 437.1,413.5\" fill=\"none\" stroke=\"#20262a\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polyline points=\"535.9,371.7 450.3,421.1\" fill=\"none\" stroke=\"#20262a\" stroke-width=\"0.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polygon points=\"470.1,333.8 549.0,379.4 549.0,318.6 470.1,273.0\" fill=\"#121619\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"470.1,333.8 384.5,383.2 384.5,322.4 470.1,273.0\" fill=\"#0e1113\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"449.6,350.1 520.7,391.2 520.7,360.8 449.6,319.7\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"541.8,379.0 520.7,391.2 520.7,360.8 541.8,348.6\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"470.7,307.6 541.8,348.6 520.7,360.8 449.6,319.7\" fill=\"#23282c\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"474.3,332.8 480.3,336.3 480.3,321.1 474.3,317.6\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"480.6,336.1 480.3,336.3 480.3,321.1 480.6,320.9\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"474.7,317.5 480.6,320.9 480.3,321.1 474.3,317.6\" fill=\"#f2994a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"486.2,339.7 492.1,343.1 492.1,327.9 486.2,324.5\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"492.4,342.9 492.1,343.1 492.1,327.9 492.4,327.7\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"486.5,324.3 492.4,327.7 492.1,327.9 486.2,324.5\" fill=\"#f2994a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"498.0,346.5 503.9,349.9 503.9,334.7 498.0,331.3\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"504.3,349.8 503.9,349.9 503.9,334.7 504.3,334.6\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"498.4,331.1 504.3,334.6 503.9,334.7 498.0,331.3\" fill=\"#f2994a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"509.9,353.4 515.8,356.8 515.8,341.6 509.9,338.2\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"516.1,356.6 515.8,356.8 515.8,341.6 516.1,341.4\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"510.2,338.0 516.1,341.4 515.8,341.6 509.9,338.2\" fill=\"#f2994a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"521.7,360.2 527.6,363.6 527.6,348.4 521.7,345.0\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"528.0,363.4 527.6,363.6 527.6,348.4 528.0,348.2\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"522.0,344.8 528.0,348.2 527.6,348.4 521.7,345.0\" fill=\"#f2994a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"533.6,367.0 539.5,370.5 539.5,355.3 533.6,351.8\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"539.8,370.3 539.5,370.5 539.5,355.3 539.8,355.1\" fill=\"#6b3a1a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"533.9,351.7 539.8,355.1 539.5,355.3 533.6,351.8\" fill=\"#f2994a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polyline points=\"425.3,325.4 497.7,367.2\" fill=\"none\" stroke=\"#8a949b\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polygon points=\"417.4,371.8 437.8,383.6 437.8,373.7 417.4,361.9\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polygon points=\"460.2,370.7 437.8,383.6 437.8,373.7 460.2,360.8\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polygon points=\"439.8,349.0 460.2,360.8 437.8,373.7 417.4,361.9\" fill=\"#1d4266\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polyline points=\"439.1,333.4 439.1,351.7\" fill=\"none\" stroke=\"#8a949b\" stroke-width=\"0.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polygon points=\"421.7,354.5 445.4,368.2 445.4,361.4 421.7,347.7\" fill=\"#1e3348\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"455.9,362.1 445.4,368.2 445.4,361.4 455.9,355.3\" fill=\"#172838\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"432.2,341.6 455.9,355.3 445.4,361.4 421.7,347.7\" fill=\"#2c4a66\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"428.6,350.5 440.4,357.4 440.4,352.8 428.6,346.0\" fill=\"#243a52\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"449.0,352.4 440.4,357.4 440.4,352.8 449.0,347.9\" fill=\"#1b2c3e\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"437.1,341.0 449.0,347.9 440.4,352.8 428.6,346.0\" fill=\"#8fb3d9\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"441.1,385.5 461.5,397.3 461.5,387.4 441.1,375.6\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polygon points=\"483.9,384.3 461.5,397.3 461.5,387.4 483.9,374.5\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polygon points=\"463.5,362.7 483.9,374.5 461.5,387.4 441.1,375.6\" fill=\"#1d4266\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polyline points=\"462.8,347.1 462.8,365.3\" fill=\"none\" stroke=\"#8a949b\" stroke-width=\"0.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polygon points=\"445.4,372.8 469.1,386.4 469.1,379.6 445.4,365.9\" fill=\"#1e3348\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"479.6,380.4 469.1,386.4 469.1,379.6 479.6,373.5\" fill=\"#172838\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"455.9,359.8 479.6,373.5 469.1,379.6 445.4,365.9\" fill=\"#3a5f80\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"452.3,368.8 464.1,375.6 464.1,371.0 452.3,364.2\" fill=\"#243a52\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"472.7,370.7 464.1,375.6 464.1,371.0 472.7,366.1\" fill=\"#1b2c3e\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"460.8,359.3 472.7,366.1 464.1,371.0 452.3,364.2\" fill=\"#8fb3d9\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"464.8,399.2 485.2,410.9 485.2,401.1 464.8,389.3\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polygon points=\"507.6,398.0 485.2,410.9 485.2,401.1 507.6,388.1\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polygon points=\"487.2,376.4 507.6,388.1 485.2,401.1 464.8,389.3\" fill=\"#1d4266\" stroke=\"#f2994a\" stroke-width=\"1.1\" stroke-linejoin=\"round\" /><polyline points=\"486.5,360.8 486.5,379.0\" fill=\"none\" stroke=\"#8a949b\" stroke-width=\"0.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\"/><polygon points=\"469.1,381.9 492.8,395.6 492.8,388.7 469.1,375.0\" fill=\"#1e3348\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"503.3,389.5 492.8,395.6 492.8,388.7 503.3,382.6\" fill=\"#172838\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"479.6,369.0 503.3,382.6 492.8,388.7 469.1,375.0\" fill=\"#6b7b88\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"476.0,377.9 487.8,384.7 487.8,380.2 476.0,373.3\" fill=\"#243a52\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"496.4,379.8 487.8,384.7 487.8,380.2 496.4,375.2\" fill=\"#1b2c3e\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"484.5,368.4 496.4,375.2 487.8,380.2 476.0,373.3\" fill=\"#8fb3d9\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><g><rect x=\"446.8\" y=\"396.8\" width=\"4.4\" height=\"9\" rx=\"1.2\" fill=\"#2a3036\"/><rect x=\"446.8\" y=\"399.3\" width=\"4.4\" height=\"2\" fill=\"#3dd68c\"/><circle cx=\"449.0\" cy=\"394.6\" r=\"2.3\" fill=\"#c9a88a\"/><path d=\"M446.5,394.2 a2.5,2.5 0 0 1 5,0z\" fill=\"#e0a84a\"/></g><polygon points=\"384.5,383.2 463.5,428.8 463.5,420.4 384.5,374.8\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"549.0,379.4 463.5,428.8 463.5,420.4 549.0,371.0\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polyline points=\"384.5,322.4 463.5,368.0 549.0,318.6\" fill=\"none\" stroke=\"#58626a\" stroke-width=\"0.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\" stroke-dasharray=\"3 4\"/><polyline points=\"384.5,374.8 384.5,322.4\" fill=\"none\" stroke=\"#58626a\" stroke-width=\"0.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\" stroke-dasharray=\"3 4\"/><polyline points=\"463.5,420.4 463.5,368.0\" fill=\"none\" stroke=\"#58626a\" stroke-width=\"0.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\" stroke-dasharray=\"3 4\"/><polyline points=\"549.0,371.0 549.0,318.6\" fill=\"none\" stroke=\"#58626a\" stroke-width=\"0.9\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"1\" stroke-dasharray=\"3 4\"/><polygon points=\"545.7,404.1 572.1,419.3 572.1,399.5 545.7,384.3\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1.2\" stroke-linejoin=\"round\" /><polygon points=\"591.8,407.9 572.1,419.3 572.1,399.5 591.8,388.1\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1.2\" stroke-linejoin=\"round\" /><polygon points=\"565.5,372.9 591.8,388.1 572.1,399.5 545.7,384.3\" fill=\"#1c2024\" stroke=\"#f2994a\" stroke-width=\"1.2\" stroke-linejoin=\"round\" /><ellipse cx=\"563.0\" cy=\"382.9\" rx=\"7.8\" ry=\"4.5\" fill=\"#2a1d10\" stroke=\"#f2994a\" stroke-width=\"1\"/><ellipse cx=\"574.6\" cy=\"389.6\" rx=\"7.8\" ry=\"4.5\" fill=\"#2a1d10\" stroke=\"#f2994a\" stroke-width=\"1\"/><polygon points=\"547.5,396.2 552.8,399.3 552.8,393.3 547.5,390.3\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"556.3,401.3 561.5,404.3 561.5,398.4 556.3,395.4\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"565.0,406.4 570.3,409.4 570.3,403.5 565.0,400.4\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"516.1,421.2 542.4,436.4 542.4,416.6 516.1,401.4\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1.2\" stroke-linejoin=\"round\" /><polygon points=\"562.2,425.0 542.4,436.4 542.4,416.6 562.2,405.2\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1.2\" stroke-linejoin=\"round\" /><polygon points=\"535.9,390.0 562.2,405.2 542.4,416.6 516.1,401.4\" fill=\"#1c2024\" stroke=\"#f2994a\" stroke-width=\"1.2\" stroke-linejoin=\"round\" /><ellipse cx=\"533.4\" cy=\"400.0\" rx=\"7.8\" ry=\"4.5\" fill=\"#2a1d10\" stroke=\"#f2994a\" stroke-width=\"1\"/><ellipse cx=\"544.9\" cy=\"406.7\" rx=\"7.8\" ry=\"4.5\" fill=\"#2a1d10\" stroke=\"#f2994a\" stroke-width=\"1\"/><polygon points=\"517.9,413.3 523.1,416.4 523.1,410.4 517.9,407.4\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"526.7,418.4 531.9,421.4 531.9,415.5 526.7,412.5\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"535.4,423.5 540.7,426.5 540.7,420.6 535.4,417.5\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><path d=\"M483.8,400.3 L483.8,445.9 A15.8,9.1 0 0 0 515.5,445.9 L515.5,400.3 Z\" fill=\"#1f160d\" stroke=\"#f2994a\" stroke-width=\"1.2\"/><ellipse cx=\"499.7\" cy=\"400.3\" rx=\"15.8\" ry=\"9.1\" fill=\"#1c2024\" stroke=\"#f2994a\" stroke-width=\"1.2\"/><path d=\"M483.8,430.7 A15.8,9.1 0 0 0 515.5,430.7\" fill=\"none\" stroke=\"#6b4a2a\" stroke-width=\".8\"/><path d=\"M483.8,415.5 A15.8,9.1 0 0 0 515.5,415.5\" fill=\"none\" stroke=\"#6b4a2a\" stroke-width=\".8\"/><polygon points=\"150.8,277.9 196.9,304.5 196.9,284.8 150.8,258.2\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"211.4,296.2 196.9,304.5 196.9,284.8 211.4,276.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"165.3,249.8 211.4,276.4 196.9,284.8 150.8,258.2\" fill=\"#3a4147\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"199.5,304.5 211.4,311.4 211.4,296.9 199.5,290.1\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"223.2,304.5 211.4,311.4 211.4,296.9 223.2,290.1\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"211.4,283.3 223.2,290.1 211.4,296.9 199.5,290.1\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><ellipse cx=\"157.4\" cy=\"281.7\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"190.3\" cy=\"300.7\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"204.2\" cy=\"308.7\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><path d=\"M160.3,252.5 L160.3,259.3 A7.0,4.0 0 0 0 174.3,259.3 L174.3,252.5 Z\" fill=\"#4a535a\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"167.3\" cy=\"252.5\" rx=\"7.0\" ry=\"4.0\" fill=\"#5d676e\" stroke=\"#3d454c\" stroke-width=\"1\"/><path d=\"M174.1,260.5 L174.1,267.3 A7.0,4.0 0 0 0 188.1,267.3 L188.1,260.5 Z\" fill=\"#4a535a\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"181.1\" cy=\"260.5\" rx=\"7.0\" ry=\"4.0\" fill=\"#5d676e\" stroke=\"#3d454c\" stroke-width=\"1\"/><path d=\"M188.0,268.4 L188.0,275.3 A7.0,4.0 0 0 0 201.9,275.3 L201.9,268.4 Z\" fill=\"#4a535a\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"194.9\" cy=\"268.4\" rx=\"7.0\" ry=\"4.0\" fill=\"#5d676e\" stroke=\"#3d454c\" stroke-width=\"1\"/><polygon points=\"121.2,322.4 160.7,345.2 160.7,322.4 121.2,299.6\" fill=\"#101a2a\" stroke=\"#5b8def\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"187.0,330.0 160.7,345.2 160.7,322.4 187.0,307.2\" fill=\"#101315\" stroke=\"#5b8def\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"147.6,284.4 187.0,307.2 160.7,322.4 121.2,299.6\" fill=\"#1c2024\" stroke=\"#5b8def\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"123.9,313.7 131.8,318.2 131.8,311.4 123.9,306.8\" fill=\"#2a4a7a\" stroke=\"#2a4a7a\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"137.0,321.3 144.9,325.8 144.9,319.0 137.0,314.4\" fill=\"#2a4a7a\" stroke=\"#2a4a7a\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"150.2,328.9 158.1,333.4 158.1,326.6 150.2,322.0\" fill=\"#2a4a7a\" stroke=\"#2a4a7a\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"167.3,371.8 298.9,447.8 298.9,409.8 167.3,333.8\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"358.2,413.6 298.9,447.8 298.9,409.8 358.2,375.6\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"226.5,299.6 358.2,375.6 298.9,409.8 167.3,333.8\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"226.5,299.6 358.2,375.6 328.5,376.0 196.9,300.0\" fill=\"#181b1e\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"167.3,333.8 298.9,409.8 328.5,376.0 196.9,300.0\" fill=\"#22272b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"358.2,375.6 298.9,409.8 328.5,376.0\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"171.7,357.2 184.8,364.8 184.8,353.4 171.7,345.8\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"193.6,369.9 206.8,377.5 206.8,366.1 193.6,358.5\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"215.6,382.6 228.7,390.2 228.7,378.8 215.6,371.2\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"237.5,395.2 250.7,402.8 250.7,391.4 237.5,383.8\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"259.4,407.9 272.6,415.5 272.6,404.1 259.4,396.5\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"281.4,420.6 294.5,428.2 294.5,416.8 281.4,409.2\" fill=\"#2b3238\" stroke=\"#2b3238\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"354.9,445.9 394.4,468.7 394.4,445.9 354.9,423.1\" fill=\"#15181b\" stroke=\"#f2994a\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"424.0,451.6 394.4,468.7 394.4,445.9 424.0,428.8\" fill=\"#101315\" stroke=\"#f2994a\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"384.5,406.0 424.0,428.8 394.4,445.9 354.9,423.1\" fill=\"#1c2024\" stroke=\"#f2994a\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"357.5,437.2 365.4,441.7 365.4,434.9 357.5,430.3\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"370.7,444.8 378.6,449.3 378.6,442.5 370.7,437.9\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><polygon points=\"383.8,452.4 391.7,456.9 391.7,450.1 383.8,445.5\" fill=\"#3a2a18\" stroke=\"#3a2a18\" stroke-width=\"0.6\" stroke-linejoin=\"round\" /><g><rect x=\"155.2\" y=\"352.3\" width=\"4.4\" height=\"9\" rx=\"1.2\" fill=\"#2a3036\"/><rect x=\"155.2\" y=\"354.8\" width=\"4.4\" height=\"2\" fill=\"#3dd68c\"/><circle cx=\"157.4\" cy=\"350.1\" r=\"2.3\" fill=\"#c9a88a\"/><path d=\"M154.9,349.7 a2.5,2.5 0 0 1 5,0z\" fill=\"#e0a84a\"/></g><g><rect x=\"323.1\" y=\"437.8\" width=\"4.4\" height=\"9\" rx=\"1.2\" fill=\"#2a3036\"/><rect x=\"323.1\" y=\"440.3\" width=\"4.4\" height=\"2\" fill=\"#3dd68c\"/><circle cx=\"325.3\" cy=\"435.6\" r=\"2.3\" fill=\"#c9a88a\"/><path d=\"M322.8,435.2 a2.5,2.5 0 0 1 5,0z\" fill=\"#e0a84a\"/></g><g><rect x=\"474.4\" y=\"464.4\" width=\"4.4\" height=\"9\" rx=\"1.2\" fill=\"#2a3036\"/><rect x=\"474.4\" y=\"466.9\" width=\"4.4\" height=\"2\" fill=\"#3dd68c\"/><circle cx=\"476.6\" cy=\"462.2\" r=\"2.3\" fill=\"#c9a88a\"/><path d=\"M474.1,461.8 a2.5,2.5 0 0 1 5,0z\" fill=\"#ffffff\"/></g><polygon points=\"376.6,489.6 435.8,523.8 435.8,520.0 376.6,485.8\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"450.3,515.4 435.8,523.8 435.8,520.0 450.3,511.6\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"391.1,477.4 450.3,511.6 435.8,520.0 376.6,485.8\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"381.2,486.2 397.0,495.3 397.0,488.5 381.2,479.3\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"407.5,489.2 397.0,495.3 397.0,488.5 407.5,482.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"391.7,473.3 407.5,482.4 397.0,488.5 381.2,479.3\" fill=\"#2a3b4a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"400.3,497.2 416.1,506.3 416.1,499.5 400.3,490.4\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"426.6,500.2 416.1,506.3 416.1,499.5 426.6,493.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"410.8,484.3 426.6,493.4 416.1,499.5 400.3,490.4\" fill=\"#2a3b4a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"419.4,508.2 435.2,517.3 435.2,510.5 419.4,501.4\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"445.7,511.3 435.2,517.3 435.2,510.5 445.7,504.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"429.9,495.3 445.7,504.4 435.2,510.5 419.4,501.4\" fill=\"#2a3b4a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"438.5,523.8 450.3,530.6 450.3,516.2 438.5,509.4\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"462.2,523.8 450.3,530.6 450.3,516.2 462.2,509.4\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"450.3,502.5 462.2,509.4 450.3,516.2 438.5,509.4\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><ellipse cx=\"383.2\" cy=\"493.4\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"429.2\" cy=\"520.0\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"443.1\" cy=\"528.0\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><polygon points=\"307.5,491.5 366.7,525.7 366.7,521.9 307.5,487.7\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"381.2,517.3 366.7,525.7 366.7,521.9 381.2,513.5\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"322.0,479.3 381.2,513.5 366.7,521.9 307.5,487.7\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"312.1,488.1 327.9,497.2 327.9,490.4 312.1,481.2\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"338.4,491.1 327.9,497.2 327.9,490.4 338.4,484.3\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"322.6,475.2 338.4,484.3 327.9,490.4 312.1,481.2\" fill=\"#2a3b4a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"331.2,499.1 347.0,508.2 347.0,501.4 331.2,492.3\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"357.5,502.1 347.0,508.2 347.0,501.4 357.5,495.3\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"341.7,486.2 357.5,495.3 347.0,501.4 331.2,492.3\" fill=\"#2a3b4a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"350.3,510.1 366.1,519.2 366.1,512.4 350.3,503.3\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"376.6,513.2 366.1,519.2 366.1,512.4 376.6,506.3\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"360.8,497.2 376.6,506.3 366.1,512.4 350.3,503.3\" fill=\"#2a3b4a\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"369.4,525.7 381.2,532.5 381.2,518.1 369.4,511.3\" fill=\"#15181b\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"393.0,525.7 381.2,532.5 381.2,518.1 393.0,511.3\" fill=\"#101315\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><polygon points=\"381.2,504.4 393.0,511.3 381.2,518.1 369.4,511.3\" fill=\"#1c2024\" stroke=\"#3d454c\" stroke-width=\"1\" stroke-linejoin=\"round\" /><ellipse cx=\"314.1\" cy=\"495.3\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"360.1\" cy=\"521.9\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><ellipse cx=\"374.0\" cy=\"529.9\" rx=\"3.3\" ry=\"4\" fill=\"#0c0e10\" stroke=\"#3d454c\" stroke-width=\"1\"/><polyline points=\"578.0,377.1 594.4,386.6 578.6,395.7\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"578.0,377.1 594.4,386.6 578.6,395.7\" fill=\"none\" stroke=\"#3dd68c\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><polyline points=\"555.6,389.3 535.9,377.9\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"3.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"555.6,389.3 535.9,377.9\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><polyline points=\"526.0,406.4 496.4,393.1 450.3,366.5\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"3.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"526.0,406.4 496.4,393.1 450.3,366.5\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><polyline points=\"510.9,431.8 529.3,421.2\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"510.9,431.8 529.3,421.2\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><polyline points=\"410.8,453.1 443.7,472.1 488.5,446.3\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"3.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".35\"/><polyline class=\"flow\" points=\"410.8,453.1 443.7,472.1 488.5,446.3\" fill=\"none\" stroke=\"#f2994a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"3 9\"/><line x1=\"463.5\" y1=\"155.2\" x2=\"463.5\" y2=\"115.2\" stroke=\"#3dd68c\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"463.5\" cy=\"155.2\" r=\"3\" fill=\"#3dd68c\"/><g class=\"mk\"><circle cx=\"463.5\" cy=\"115.2\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#3dd68c\" stroke-width=\"1.6\"/><text x=\"463.5\" y=\"115.7\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3dd68c\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">01</text></g><line x1=\"621.4\" y1=\"330.0\" x2=\"591.4\" y2=\"274.0\" stroke=\"#3dd68c\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"621.4\" cy=\"330.0\" r=\"3\" fill=\"#3dd68c\"/><g class=\"mk\"><circle cx=\"591.4\" cy=\"274.0\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#3dd68c\" stroke-width=\"1.6\"/><text x=\"591.4\" y=\"274.5\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3dd68c\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">02</text></g><line x1=\"279.2\" y1=\"219.0\" x2=\"303.2\" y2=\"157.0\" stroke=\"#3dd68c\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"279.2\" cy=\"219.0\" r=\"3\" fill=\"#3dd68c\"/><g class=\"mk\"><circle cx=\"303.2\" cy=\"157.0\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#3dd68c\" stroke-width=\"1.6\"/><text x=\"303.2\" y=\"157.5\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3dd68c\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">03</text></g><line x1=\"693.8\" y1=\"367.2\" x2=\"719.8\" y2=\"327.2\" stroke=\"#3dd68c\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"693.8\" cy=\"367.2\" r=\"3\" fill=\"#3dd68c\"/><g class=\"mk\"><circle cx=\"719.8\" cy=\"327.2\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#3dd68c\" stroke-width=\"1.6\"/><text x=\"719.8\" y=\"327.7\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#3dd68c\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">04</text></g><line x1=\"568.8\" y1=\"385.5\" x2=\"618.8\" y2=\"355.5\" stroke=\"#f2994a\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"568.8\" cy=\"385.5\" r=\"3\" fill=\"#f2994a\"/><g class=\"mk\"><circle cx=\"618.8\" cy=\"355.5\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#f2994a\" stroke-width=\"1.6\"/><text x=\"618.8\" y=\"356.0\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#f2994a\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">05</text></g><line x1=\"499.7\" y1=\"400.3\" x2=\"561.7\" y2=\"418.3\" stroke=\"#f2994a\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"499.7\" cy=\"400.3\" r=\"3\" fill=\"#f2994a\"/><g class=\"mk\"><circle cx=\"561.7\" cy=\"418.3\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#f2994a\" stroke-width=\"1.6\"/><text x=\"561.7\" y=\"418.8\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#f2994a\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">06</text></g><line x1=\"397.7\" y1=\"421.2\" x2=\"397.7\" y2=\"371.2\" stroke=\"#f2994a\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"397.7\" cy=\"421.2\" r=\"3\" fill=\"#f2994a\"/><g class=\"mk\"><circle cx=\"397.7\" cy=\"371.2\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#f2994a\" stroke-width=\"1.6\"/><text x=\"397.7\" y=\"371.7\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#f2994a\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">07</text></g><line x1=\"160.7\" y1=\"299.6\" x2=\"122.7\" y2=\"333.6\" stroke=\"#5b8def\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"160.7\" cy=\"299.6\" r=\"3\" fill=\"#5b8def\"/><g class=\"mk\"><circle cx=\"122.7\" cy=\"333.6\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#5b8def\" stroke-width=\"1.6\"/><text x=\"122.7\" y=\"334.1\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#5b8def\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">08</text></g><line x1=\"180.5\" y1=\"263.9\" x2=\"146.5\" y2=\"211.9\" stroke=\"#c9a43a\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"180.5\" cy=\"263.9\" r=\"3\" fill=\"#c9a43a\"/><g class=\"mk\"><circle cx=\"146.5\" cy=\"211.9\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#c9a43a\" stroke-width=\"1.6\"/><text x=\"146.5\" y=\"212.4\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#c9a43a\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">09</text></g><line x1=\"417.4\" y1=\"493.4\" x2=\"461.4\" y2=\"503.4\" stroke=\"#c9a43a\" stroke-width=\"1\" opacity=\".9\"/><circle cx=\"417.4\" cy=\"493.4\" r=\"3\" fill=\"#c9a43a\"/><g class=\"mk\"><circle cx=\"461.4\" cy=\"503.4\" r=\"15\" fill=\"#0a0b0c\" stroke=\"#c9a43a\" stroke-width=\"1.6\"/><text x=\"461.4\" y=\"503.9\" text-anchor=\"middle\" dominant-baseline=\"central\" fill=\"#c9a43a\" font-size=\"12.5\" font-family=\"IBM Plex Mono, ui-monospace, monospace\" font-weight=\"600\">10</text></g></svg>",
+  "dayChart": "<svg viewBox=\"0 0 720 300\" role=\"img\" aria-label=\"Illustrative 24-hour green supply stack with heat pump load shifted into solar hours\"><defs><pattern id=\"hatch\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\" patternTransform=\"rotate(45)\"><rect width=\"6\" height=\"6\" fill=\"#f2994a\" fill-opacity=\".18\"/><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"6\" stroke=\"#f2994a\" stroke-width=\"1.4\" stroke-opacity=\".6\"/></pattern></defs><rect x=\"0\" y=\"0\" width=\"720\" height=\"300\" fill=\"#0c0f11\" stroke=\"#2c3237\"/><line x1=\"30.0\" y1=\"40\" x2=\"30.0\" y2=\"266\" stroke=\"#1e2327\"/><text x=\"30.0\" y=\"286\" fill=\"#5d666c\" font-size=\"10\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">00</text><line x1=\"198.5\" y1=\"40\" x2=\"198.5\" y2=\"266\" stroke=\"#1e2327\"/><text x=\"198.5\" y=\"286\" fill=\"#5d666c\" font-size=\"10\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">06</text><line x1=\"367.0\" y1=\"40\" x2=\"367.0\" y2=\"266\" stroke=\"#1e2327\"/><text x=\"367.0\" y=\"286\" fill=\"#5d666c\" font-size=\"10\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">12</text><line x1=\"535.5\" y1=\"40\" x2=\"535.5\" y2=\"266\" stroke=\"#1e2327\"/><text x=\"535.5\" y=\"286\" fill=\"#5d666c\" font-size=\"10\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">18</text><line x1=\"704.0\" y1=\"40\" x2=\"704.0\" y2=\"266\" stroke=\"#1e2327\"/><text x=\"704.0\" y=\"286\" fill=\"#5d666c\" font-size=\"10\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\">24</text><polygon points=\"30.0,207.8 37.0,207.9 44.0,208.1 51.1,208.3 58.1,208.6 65.1,208.9 72.1,209.2 79.1,209.6 86.2,210.1 93.2,210.6 100.2,211.1 107.2,211.7 114.2,212.3 121.3,213.0 128.3,213.6 135.3,214.3 142.3,215.1 149.4,215.8 156.4,216.6 163.4,217.4 170.4,218.2 177.4,219.0 184.5,219.8 191.5,220.6 198.5,221.4 205.5,222.2 212.5,223.0 219.6,223.8 226.6,224.5 233.6,225.3 240.6,226.0 247.6,226.7 254.7,227.4 261.7,228.0 268.7,228.6 275.7,229.2 282.8,229.7 289.8,230.2 296.8,230.6 303.8,231.0 310.8,231.4 317.9,231.7 324.9,231.9 331.9,232.2 338.9,232.3 345.9,232.4 353.0,232.4 360.0,232.4 367.0,232.4 374.0,232.3 381.0,232.1 388.1,231.9 395.1,231.6 402.1,231.3 409.1,231.0 416.1,230.5 423.2,230.1 430.2,229.6 437.2,229.1 444.2,228.5 451.2,227.9 458.3,227.2 465.3,226.5 472.3,225.8 479.3,225.1 486.4,224.4 493.4,223.6 500.4,222.8 507.4,222.0 514.4,221.2 521.5,220.4 528.5,219.6 535.5,218.8 542.5,218.0 549.5,217.2 556.6,216.4 563.6,215.7 570.6,214.9 577.6,214.2 584.6,213.5 591.7,212.8 598.7,212.2 605.7,211.6 612.7,211.0 619.8,210.5 626.8,210.0 633.8,209.5 640.8,209.2 647.8,208.8 654.9,208.5 661.9,208.2 668.9,208.0 675.9,207.9 682.9,207.8 690.0,207.7 697.0,207.7 704.0,207.8 704.0,266.0 697.0,266.0 690.0,266.0 682.9,266.0 675.9,266.0 668.9,266.0 661.9,266.0 654.9,266.0 647.8,266.0 640.8,266.0 633.8,266.0 626.8,266.0 619.8,266.0 612.7,266.0 605.7,266.0 598.7,266.0 591.7,266.0 584.6,266.0 577.6,266.0 570.6,266.0 563.6,266.0 556.6,266.0 549.5,266.0 542.5,266.0 535.5,266.0 528.5,266.0 521.5,266.0 514.4,266.0 507.4,266.0 500.4,266.0 493.4,266.0 486.4,266.0 479.3,266.0 472.3,266.0 465.3,266.0 458.3,266.0 451.2,266.0 444.2,266.0 437.2,266.0 430.2,266.0 423.2,266.0 416.1,266.0 409.1,266.0 402.1,266.0 395.1,266.0 388.1,266.0 381.0,266.0 374.0,266.0 367.0,266.0 360.0,266.0 353.0,266.0 345.9,266.0 338.9,266.0 331.9,266.0 324.9,266.0 317.9,266.0 310.8,266.0 303.8,266.0 296.8,266.0 289.8,266.0 282.8,266.0 275.7,266.0 268.7,266.0 261.7,266.0 254.7,266.0 247.6,266.0 240.6,266.0 233.6,266.0 226.6,266.0 219.6,266.0 212.5,266.0 205.5,266.0 198.5,266.0 191.5,266.0 184.5,266.0 177.4,266.0 170.4,266.0 163.4,266.0 156.4,266.0 149.4,266.0 142.3,266.0 135.3,266.0 128.3,266.0 121.3,266.0 114.2,266.0 107.2,266.0 100.2,266.0 93.2,266.0 86.2,266.0 79.1,266.0 72.1,266.0 65.1,266.0 58.1,266.0 51.1,266.0 44.0,266.0 37.0,266.0 30.0,266.0\" fill=\"#1f7a55\" fill-opacity=\"0.9\"/><polygon points=\"30.0,207.8 37.0,207.9 44.0,208.1 51.1,208.3 58.1,208.6 65.1,208.9 72.1,209.2 79.1,209.6 86.2,210.1 93.2,210.6 100.2,211.1 107.2,211.7 114.2,212.3 121.3,213.0 128.3,213.6 135.3,214.3 142.3,215.1 149.4,215.8 156.4,216.6 163.4,217.4 170.4,218.2 177.4,219.0 184.5,219.8 191.5,220.6 198.5,221.4 205.5,210.1 212.5,198.8 219.6,187.6 226.6,176.6 233.6,165.7 240.6,155.1 247.6,144.7 254.7,134.7 261.7,125.0 268.7,115.8 275.7,106.9 282.8,98.6 289.8,90.8 296.8,83.6 303.8,76.9 310.8,73.8 317.9,73.6 324.9,73.6 331.9,73.6 338.9,73.5 345.9,73.5 353.0,73.5 360.0,73.5 367.0,73.5 374.0,73.5 381.0,73.5 388.1,73.5 395.1,73.5 402.1,73.5 409.1,73.5 416.1,73.5 423.2,73.5 430.2,75.4 437.2,82.0 444.2,89.1 451.2,96.8 458.3,105.0 465.3,113.7 472.3,122.8 479.3,132.4 486.4,142.4 493.4,152.6 500.4,163.2 507.4,174.0 514.4,185.0 521.5,196.2 528.5,207.5 535.5,218.8 542.5,218.0 549.5,217.2 556.6,216.4 563.6,215.7 570.6,214.9 577.6,214.2 584.6,213.5 591.7,212.8 598.7,212.2 605.7,211.6 612.7,211.0 619.8,210.5 626.8,210.0 633.8,209.5 640.8,209.2 647.8,208.8 654.9,208.5 661.9,208.2 668.9,208.0 675.9,207.9 682.9,207.8 690.0,207.7 697.0,207.7 704.0,207.8 704.0,207.8 697.0,207.7 690.0,207.7 682.9,207.8 675.9,207.9 668.9,208.0 661.9,208.2 654.9,208.5 647.8,208.8 640.8,209.2 633.8,209.5 626.8,210.0 619.8,210.5 612.7,211.0 605.7,211.6 598.7,212.2 591.7,212.8 584.6,213.5 577.6,214.2 570.6,214.9 563.6,215.7 556.6,216.4 549.5,217.2 542.5,218.0 535.5,218.8 528.5,219.6 521.5,220.4 514.4,221.2 507.4,222.0 500.4,222.8 493.4,223.6 486.4,224.4 479.3,225.1 472.3,225.8 465.3,226.5 458.3,227.2 451.2,227.9 444.2,228.5 437.2,229.1 430.2,229.6 423.2,230.1 416.1,230.5 409.1,231.0 402.1,231.3 395.1,231.6 388.1,231.9 381.0,232.1 374.0,232.3 367.0,232.4 360.0,232.4 353.0,232.4 345.9,232.4 338.9,232.3 331.9,232.2 324.9,231.9 317.9,231.7 310.8,231.4 303.8,231.0 296.8,230.6 289.8,230.2 282.8,229.7 275.7,229.2 268.7,228.6 261.7,228.0 254.7,227.4 247.6,226.7 240.6,226.0 233.6,225.3 226.6,224.5 219.6,223.8 212.5,223.0 205.5,222.2 198.5,221.4 191.5,220.6 184.5,219.8 177.4,219.0 170.4,218.2 163.4,217.4 156.4,216.6 149.4,215.8 142.3,215.1 135.3,214.3 128.3,213.6 121.3,213.0 114.2,212.3 107.2,211.7 100.2,211.1 93.2,210.6 86.2,210.1 79.1,209.6 72.1,209.2 65.1,208.9 58.1,208.6 51.1,208.3 44.0,208.1 37.0,207.9 30.0,207.8\" fill=\"#3dd68c\" fill-opacity=\"0.75\"/><polygon points=\"30.0,207.8 37.0,207.9 44.0,208.1 51.1,208.3 58.1,208.6 65.1,208.9 72.1,209.2 79.1,209.6 86.2,210.1 93.2,210.6 100.2,211.1 107.2,211.7 114.2,212.3 121.3,213.0 128.3,213.6 135.3,214.3 142.3,215.1 149.4,215.8 156.4,216.6 163.4,217.4 170.4,218.2 177.4,219.0 184.5,219.8 191.5,220.6 198.5,221.4 205.5,210.1 212.5,198.8 219.6,187.6 226.6,176.6 233.6,165.7 240.6,155.1 247.6,144.7 254.7,134.7 261.7,125.0 268.7,115.8 275.7,106.9 282.8,98.6 289.8,90.8 296.8,83.6 303.8,76.9 310.8,73.8 317.9,73.6 324.9,73.6 331.9,73.6 338.9,73.5 345.9,73.5 353.0,73.5 360.0,73.5 367.0,73.5 374.0,73.5 381.0,73.5 388.1,73.5 395.1,73.5 402.1,73.5 409.1,73.5 416.1,73.5 423.2,73.5 430.2,75.4 437.2,82.0 444.2,89.1 451.2,96.8 458.3,105.0 465.3,113.7 472.3,122.8 479.3,132.4 486.4,142.4 493.4,152.6 500.4,163.2 507.4,174.0 514.4,185.0 521.5,157.4 528.5,168.6 535.5,179.9 542.5,179.1 549.5,178.4 556.6,177.6 563.6,176.8 570.6,176.1 577.6,175.3 584.6,174.6 591.7,174.0 598.7,173.3 605.7,172.7 612.7,172.2 619.8,171.6 626.8,171.2 633.8,170.7 640.8,170.3 647.8,170.0 654.9,208.5 661.9,208.2 668.9,208.0 675.9,207.9 682.9,207.8 690.0,207.7 697.0,207.7 704.0,207.8 704.0,207.8 697.0,207.7 690.0,207.7 682.9,207.8 675.9,207.9 668.9,208.0 661.9,208.2 654.9,208.5 647.8,208.8 640.8,209.2 633.8,209.5 626.8,210.0 619.8,210.5 612.7,211.0 605.7,211.6 598.7,212.2 591.7,212.8 584.6,213.5 577.6,214.2 570.6,214.9 563.6,215.7 556.6,216.4 549.5,217.2 542.5,218.0 535.5,218.8 528.5,207.5 521.5,196.2 514.4,185.0 507.4,174.0 500.4,163.2 493.4,152.6 486.4,142.4 479.3,132.4 472.3,122.8 465.3,113.7 458.3,105.0 451.2,96.8 444.2,89.1 437.2,82.0 430.2,75.4 423.2,73.5 416.1,73.5 409.1,73.5 402.1,73.5 395.1,73.5 388.1,73.5 381.0,73.5 374.0,73.5 367.0,73.5 360.0,73.5 353.0,73.5 345.9,73.5 338.9,73.5 331.9,73.6 324.9,73.6 317.9,73.6 310.8,73.8 303.8,76.9 296.8,83.6 289.8,90.8 282.8,98.6 275.7,106.9 268.7,115.8 261.7,125.0 254.7,134.7 247.6,144.7 240.6,155.1 233.6,165.7 226.6,176.6 219.6,187.6 212.5,198.8 205.5,210.1 198.5,221.4 191.5,220.6 184.5,219.8 177.4,219.0 170.4,218.2 163.4,217.4 156.4,216.6 149.4,215.8 142.3,215.1 135.3,214.3 128.3,213.6 121.3,213.0 114.2,212.3 107.2,211.7 100.2,211.1 93.2,210.6 86.2,210.1 79.1,209.6 72.1,209.2 65.1,208.9 58.1,208.6 51.1,208.3 44.0,208.1 37.0,207.9 30.0,207.8\" fill=\"#5b8def\" fill-opacity=\"0.8\"/><polygon points=\"30.0,198.9 37.0,198.9 44.0,198.9 51.1,198.9 58.1,198.9 65.1,198.9 72.1,198.9 79.1,198.9 86.2,198.9 93.2,198.9 100.2,198.9 107.2,198.9 114.2,198.9 121.3,198.9 128.3,198.9 135.3,198.9 142.3,198.9 149.4,198.8 156.4,198.6 163.4,198.1 170.4,197.0 177.4,194.2 184.5,187.9 191.5,175.6 198.5,157.4 205.5,139.3 212.5,127.0 219.6,120.6 226.6,117.8 233.6,116.7 240.6,116.2 247.6,116.0 254.7,115.7 261.7,115.0 268.7,112.7 275.7,106.5 282.8,94.7 289.8,83.0 296.8,76.8 303.8,74.5 310.8,73.8 317.9,73.6 324.9,73.6 331.9,73.6 338.9,73.5 345.9,73.5 353.0,73.5 360.0,73.5 367.0,73.5 374.0,73.5 381.0,73.5 388.1,73.5 395.1,73.5 402.1,73.5 409.1,73.5 416.1,73.5 423.2,73.5 430.2,73.6 437.2,73.6 444.2,73.6 451.2,73.8 458.3,74.5 465.3,76.8 472.3,83.0 479.3,94.7 486.4,106.5 493.4,112.7 500.4,114.9 507.4,115.6 514.4,115.8 521.5,115.9 528.5,115.9 535.5,115.9 542.5,115.9 549.5,115.9 556.6,115.9 563.6,115.9 570.6,115.9 577.6,115.9 584.6,115.9 591.7,115.9 598.7,115.9 605.7,115.9 612.7,115.9 619.8,116.0 626.8,116.0 633.8,116.2 640.8,116.7 647.8,117.8 654.9,120.6 661.9,127.0 668.9,139.3 675.9,157.4 682.9,175.6 690.0,187.9 697.0,194.2 704.0,197.0 704.0,207.8 697.0,207.7 690.0,207.7 682.9,207.8 675.9,207.9 668.9,208.0 661.9,208.2 654.9,208.5 647.8,170.0 640.8,170.3 633.8,170.7 626.8,171.2 619.8,171.6 612.7,172.2 605.7,172.7 598.7,173.3 591.7,174.0 584.6,174.6 577.6,175.3 570.6,176.1 563.6,176.8 556.6,177.6 549.5,178.4 542.5,179.1 535.5,179.9 528.5,168.6 521.5,157.4 514.4,185.0 507.4,174.0 500.4,163.2 493.4,152.6 486.4,142.4 479.3,132.4 472.3,122.8 465.3,113.7 458.3,105.0 451.2,96.8 444.2,89.1 437.2,82.0 430.2,75.4 423.2,73.5 416.1,73.5 409.1,73.5 402.1,73.5 395.1,73.5 388.1,73.5 381.0,73.5 374.0,73.5 367.0,73.5 360.0,73.5 353.0,73.5 345.9,73.5 338.9,73.5 331.9,73.6 324.9,73.6 317.9,73.6 310.8,73.8 303.8,76.9 296.8,83.6 289.8,90.8 282.8,98.6 275.7,106.9 268.7,115.8 261.7,125.0 254.7,134.7 247.6,144.7 240.6,155.1 233.6,165.7 226.6,176.6 219.6,187.6 212.5,198.8 205.5,210.1 198.5,221.4 191.5,220.6 184.5,219.8 177.4,219.0 170.4,218.2 163.4,217.4 156.4,216.6 149.4,215.8 142.3,215.1 135.3,214.3 128.3,213.6 121.3,213.0 114.2,212.3 107.2,211.7 100.2,211.1 93.2,210.6 86.2,210.1 79.1,209.6 72.1,209.2 65.1,208.9 58.1,208.6 51.1,208.3 44.0,208.1 37.0,207.9 30.0,207.8\" fill=\"#8fd9b6\" fill-opacity=\"0.28\"/><polygon points=\"30.0,198.9 37.0,198.9 44.0,198.9 51.1,198.9 58.1,198.9 65.1,198.9 72.1,198.9 79.1,198.9 86.2,198.9 93.2,198.9 100.2,198.9 107.2,198.9 114.2,198.9 121.3,198.9 128.3,198.9 135.3,198.9 142.3,198.9 149.4,198.8 156.4,198.6 163.4,198.1 170.4,197.0 177.4,194.2 184.5,187.9 191.5,175.6 198.5,157.4 205.5,139.3 212.5,127.0 219.6,120.6 226.6,117.8 233.6,116.7 240.6,116.2 247.6,116.0 254.7,115.7 261.7,115.0 268.7,112.7 275.7,106.5 282.8,94.7 289.8,83.0 296.8,76.8 303.8,74.5 310.8,73.8 317.9,73.6 324.9,73.6 331.9,73.6 338.9,73.5 345.9,73.5 353.0,73.5 360.0,73.5 367.0,73.5 374.0,73.5 381.0,73.5 388.1,73.5 395.1,73.5 402.1,73.5 409.1,73.5 416.1,73.5 423.2,73.5 430.2,73.6 437.2,73.6 444.2,73.6 451.2,73.8 458.3,74.5 465.3,76.8 472.3,83.0 479.3,94.7 486.4,106.5 493.4,112.7 500.4,114.9 507.4,115.6 514.4,115.8 521.5,115.9 528.5,115.9 535.5,115.9 542.5,115.9 549.5,115.9 556.6,115.9 563.6,115.9 570.6,115.9 577.6,115.9 584.6,115.9 591.7,115.9 598.7,115.9 605.7,115.9 612.7,115.9 619.8,116.0 626.8,116.0 633.8,116.2 640.8,116.7 647.8,117.8 654.9,120.6 661.9,127.0 668.9,139.3 675.9,157.4 682.9,175.6 690.0,187.9 697.0,194.2 704.0,197.0 704.0,197.0 697.0,194.2 690.0,187.9 682.9,175.6 675.9,157.4 668.9,139.3 661.9,127.0 654.9,120.6 647.8,117.8 640.8,116.7 633.8,116.2 626.8,116.0 619.8,116.0 612.7,115.9 605.7,115.9 598.7,115.9 591.7,115.9 584.6,115.9 577.6,115.9 570.6,115.9 563.6,115.9 556.6,115.9 549.5,115.9 542.5,115.9 535.5,115.9 528.5,115.9 521.5,115.9 514.4,115.9 507.4,115.9 500.4,115.9 493.4,115.9 486.4,115.9 479.3,115.9 472.3,115.9 465.3,115.9 458.3,115.9 451.2,115.9 444.2,115.9 437.2,115.9 430.2,115.9 423.2,115.9 416.1,115.9 409.1,115.9 402.1,115.9 395.1,115.9 388.1,115.9 381.0,115.9 374.0,115.9 367.0,115.9 360.0,115.9 353.0,115.9 345.9,115.9 338.9,115.9 331.9,115.9 324.9,115.9 317.9,115.9 310.8,115.9 303.8,115.9 296.8,115.9 289.8,115.9 282.8,115.9 275.7,115.9 268.7,115.9 261.7,115.9 254.7,116.0 247.6,116.0 240.6,116.2 233.6,116.7 226.6,117.8 219.6,120.6 212.5,127.0 205.5,139.3 198.5,157.4 191.5,175.6 184.5,187.9 177.4,194.2 170.4,197.0 163.4,198.1 156.4,198.6 149.4,198.8 142.3,198.9 135.3,198.9 128.3,198.9 121.3,198.9 114.2,198.9 107.2,198.9 100.2,198.9 93.2,198.9 86.2,198.9 79.1,198.9 72.1,198.9 65.1,198.9 58.1,198.9 51.1,198.9 44.0,198.9 37.0,198.9 30.0,198.9\" fill=\"#f2994a\" fill-opacity=\"0.0\"/><polygon points=\"30.0,198.9 37.0,198.9 44.0,198.9 51.1,198.9 58.1,198.9 65.1,198.9 72.1,198.9 79.1,198.9 86.2,198.9 93.2,198.9 100.2,198.9 107.2,198.9 114.2,198.9 121.3,198.9 128.3,198.9 135.3,198.9 142.3,198.9 149.4,198.8 156.4,198.6 163.4,198.1 170.4,197.0 177.4,194.2 184.5,187.9 191.5,175.6 198.5,157.4 205.5,139.3 212.5,127.0 219.6,120.6 226.6,117.8 233.6,116.7 240.6,116.2 247.6,116.0 254.7,115.7 261.7,115.0 268.7,112.7 275.7,106.5 282.8,94.7 289.8,83.0 296.8,76.8 303.8,74.5 310.8,73.8 317.9,73.6 324.9,73.6 331.9,73.6 338.9,73.5 345.9,73.5 353.0,73.5 360.0,73.5 367.0,73.5 374.0,73.5 381.0,73.5 388.1,73.5 395.1,73.5 402.1,73.5 409.1,73.5 416.1,73.5 423.2,73.5 430.2,73.6 437.2,73.6 444.2,73.6 451.2,73.8 458.3,74.5 465.3,76.8 472.3,83.0 479.3,94.7 486.4,106.5 493.4,112.7 500.4,114.9 507.4,115.6 514.4,115.8 521.5,115.9 528.5,115.9 535.5,115.9 542.5,115.9 549.5,115.9 556.6,115.9 563.6,115.9 570.6,115.9 577.6,115.9 584.6,115.9 591.7,115.9 598.7,115.9 605.7,115.9 612.7,115.9 619.8,116.0 626.8,116.0 633.8,116.2 640.8,116.7 647.8,117.8 654.9,120.6 661.9,127.0 668.9,139.3 675.9,157.4 682.9,175.6 690.0,187.9 697.0,194.2 704.0,197.0 704.0,197.0 697.0,194.2 690.0,187.9 682.9,175.6 675.9,157.4 668.9,139.3 661.9,127.0 654.9,120.6 647.8,117.8 640.8,116.7 633.8,116.2 626.8,116.0 619.8,116.0 612.7,115.9 605.7,115.9 598.7,115.9 591.7,115.9 584.6,115.9 577.6,115.9 570.6,115.9 563.6,115.9 556.6,115.9 549.5,115.9 542.5,115.9 535.5,115.9 528.5,115.9 521.5,115.9 514.4,115.9 507.4,115.9 500.4,115.9 493.4,115.9 486.4,115.9 479.3,115.9 472.3,115.9 465.3,115.9 458.3,115.9 451.2,115.9 444.2,115.9 437.2,115.9 430.2,115.9 423.2,115.9 416.1,115.9 409.1,115.9 402.1,115.9 395.1,115.9 388.1,115.9 381.0,115.9 374.0,115.9 367.0,115.9 360.0,115.9 353.0,115.9 345.9,115.9 338.9,115.9 331.9,115.9 324.9,115.9 317.9,115.9 310.8,115.9 303.8,115.9 296.8,115.9 289.8,115.9 282.8,115.9 275.7,115.9 268.7,115.9 261.7,115.9 254.7,116.0 247.6,116.0 240.6,116.2 233.6,116.7 226.6,117.8 219.6,120.6 212.5,127.0 205.5,139.3 198.5,157.4 191.5,175.6 184.5,187.9 177.4,194.2 170.4,197.0 163.4,198.1 156.4,198.6 149.4,198.8 142.3,198.9 135.3,198.9 128.3,198.9 121.3,198.9 114.2,198.9 107.2,198.9 100.2,198.9 93.2,198.9 86.2,198.9 79.1,198.9 72.1,198.9 65.1,198.9 58.1,198.9 51.1,198.9 44.0,198.9 37.0,198.9 30.0,198.9\" fill=\"url(#hatch)\" stroke=\"#f2994a\" stroke-width=\"1\"/><polyline points=\"30.0,198.9 37.0,198.9 44.0,198.9 51.1,198.9 58.1,198.9 65.1,198.9 72.1,198.9 79.1,198.9 86.2,198.9 93.2,198.9 100.2,198.9 107.2,198.9 114.2,198.9 121.3,198.9 128.3,198.9 135.3,198.9 142.3,198.9 149.4,198.8 156.4,198.6 163.4,198.1 170.4,197.0 177.4,194.2 184.5,187.9 191.5,175.6 198.5,157.4 205.5,139.3 212.5,127.0 219.6,120.6 226.6,117.8 233.6,116.7 240.6,116.2 247.6,116.0 254.7,115.7 261.7,115.0 268.7,112.7 275.7,106.5 282.8,94.7 289.8,83.0 296.8,76.8 303.8,74.5 310.8,73.8 317.9,73.6 324.9,73.6 331.9,73.6 338.9,73.5 345.9,73.5 353.0,73.5 360.0,73.5 367.0,73.5 374.0,73.5 381.0,73.5 388.1,73.5 395.1,73.5 402.1,73.5 409.1,73.5 416.1,73.5 423.2,73.5 430.2,73.6 437.2,73.6 444.2,73.6 451.2,73.8 458.3,74.5 465.3,76.8 472.3,83.0 479.3,94.7 486.4,106.5 493.4,112.7 500.4,114.9 507.4,115.6 514.4,115.8 521.5,115.9 528.5,115.9 535.5,115.9 542.5,115.9 549.5,115.9 556.6,115.9 563.6,115.9 570.6,115.9 577.6,115.9 584.6,115.9 591.7,115.9 598.7,115.9 605.7,115.9 612.7,115.9 619.8,116.0 626.8,116.0 633.8,116.2 640.8,116.7 647.8,117.8 654.9,120.6 661.9,127.0 668.9,139.3 675.9,157.4 682.9,175.6 690.0,187.9 697.0,194.2 704.0,197.0\" fill=\"none\" stroke=\"#dfe3e6\" stroke-width=\"1.3\" stroke-dasharray=\"4 3\"/><text x=\"30\" y=\"22\" fill=\"#8b949a\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\">24 HOURS · 96 BLOCKS · ILLUSTRATIVE</text><text x=\"381.0\" y=\"63.5\" fill=\"#f2994a\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\" text-anchor=\"middle\">HEAT PUMPS + STORE</text><text x=\"367.0\" y=\"145.0\" fill=\"#0a0b0c\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\" text-anchor=\"middle\" font-weight=\"600\">SOLAR</text><text x=\"44.0\" y=\"240.2\" fill=\"#cfe9dc\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\">WIND · ISTS</text><text x=\"584.6\" y=\"197.1\" fill=\"#dbe6ff\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\" text-anchor=\"middle\">BESS</text><text x=\"591.7\" y=\"148.9\" fill=\"#b9ecd3\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\" text-anchor=\"middle\">GREEN MARKET</text><text x=\"697.0\" y=\"149.4\" fill=\"#dfe3e6\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" letter-spacing=\"1.5\" text-anchor=\"end\">PLANT LOAD</text></svg>"
+ }
+}

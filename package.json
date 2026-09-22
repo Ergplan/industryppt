@@ -1,0 +1,25 @@
+{
+  "name": "joulewise-industry-decks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jouleWise decarbonisation stack — industry decks (automotive, pharma, textile, hotels, beverages) as a Next.js website section",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "decks:export": "cd tools/generator && python3 export.py ../../content/decks",
+    "decks:standalone": "cd tools/generator && python3 run.py"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.6.0"
+  }
+}
