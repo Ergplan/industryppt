@@ -1,0 +1,93 @@
+/* jwchart — styles for charts produced by lib/jwchart.
+   Self-contained and project-neutral: every colour, font and size comes from a
+   --jwc-* custom property with a usable default, so dropping this file into another
+   project works as-is, and matching a house style means overriding the tokens:
+
+     .jwc { --jwc-ink:#111; --jwc-muted:#666; --jwc-font:"Söhne",sans-serif }
+
+   The chart carries no background or frame by design — it floats on whatever is behind it. */
+
+.jwc{
+  --jwc-ink:#eef0f1;
+  --jwc-muted:#8b949a;
+  --jwc-dim:#5d666c;
+  --jwc-line:#2c3237;
+  --jwc-font:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --jwc-mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --jwc-fill:.16;            /* slice fill opacity at rest */
+  --jwc-fill-active:.36;
+  --jwc-dim-opacity:.3;      /* other slices while one is focused */
+  --jwc-lift:1;              /* multiplier on the hover lift; 0 disables it */
+  --jwc-duration:.22s;
+  margin:0;display:block;font-family:var(--jwc-font);color:var(--jwc-ink);
+}
+.jwc.is-empty{display:none}
+.jwc .jwc-svg{display:block;width:100%;height:auto;overflow:visible}
+
+/* ---------------------------------------------------------------- slices */
+.jwc-slice{transition:opacity var(--jwc-duration) ease,transform var(--jwc-duration) cubic-bezier(.2,.7,.3,1)}
+.jwc-slice:focus{outline:none}
+.jwc-arc{
+  fill:var(--jwc-c);fill-opacity:var(--jwc-fill);
+  stroke:var(--jwc-c);stroke-width:1.5;stroke-linejoin:round;
+  transition:fill-opacity var(--jwc-duration) ease,stroke-width var(--jwc-duration) ease;
+}
+.jwc-svg.is-solid .jwc-arc{fill-opacity:.9;stroke-width:0}
+/* one slice focused: it lifts and brightens, the rest step back */
+.jwc-donut.is-focused .jwc-slice{opacity:var(--jwc-dim-opacity)}
+.jwc-donut.is-focused .jwc-slice.is-active{opacity:1}
+.jwc-slice.is-active{transform:translate(calc(var(--jwc-dx) * var(--jwc-lift)),calc(var(--jwc-dy) * var(--jwc-lift)))}
+.jwc-slice.is-active .jwc-arc{fill-opacity:var(--jwc-fill-active);stroke-width:2}
+.jwc-slice:focus-visible .jwc-arc{stroke-width:2.5;stroke-dasharray:none}
+
+/* ---------------------------------------------------------- leader labels */
+.jwc-leader{transition:opacity var(--jwc-duration) ease}
+.jwc-donut.is-focused .jwc-leader{opacity:var(--jwc-dim-opacity)}
+.jwc-donut.is-focused .jwc-leader.is-active{opacity:1}
+.jwc-leader-line{stroke:var(--jwc-line);stroke-width:1}
+.jwc-leader.is-active .jwc-leader-line{stroke:var(--jwc-c)}
+.jwc-leader-dot{fill:var(--jwc-c)}
+.jwc-leader-label{font-family:var(--jwc-font);font-size:13px;font-weight:600;fill:var(--jwc-ink)}
+.jwc-leader-value{font-family:var(--jwc-mono);font-size:11px;fill:var(--jwc-muted);letter-spacing:.04em}
+.jwc-leader.is-active .jwc-leader-value{fill:var(--jwc-c)}
+
+/* ---------------------------------------------------------------- centre */
+.jwc-center-value{font-family:var(--jwc-mono);font-size:34px;fill:var(--jwc-ink);dominant-baseline:middle}
+.jwc-center-caption{font-family:var(--jwc-mono);font-size:9.5px;letter-spacing:.2em;
+  text-transform:uppercase;fill:var(--jwc-muted)}
+.jwc-center-value,.jwc-center-caption{transition:fill var(--jwc-duration) ease}
+
+/* ---------------------------------------------------------------- legend */
+.jwc-legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin:14px 0 0;padding:0;list-style:none}
+.jwc-legend-item{display:inline-flex;align-items:center;gap:8px;cursor:pointer;
+  font-family:var(--jwc-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--jwc-muted);transition:color var(--jwc-duration) ease,opacity var(--jwc-duration) ease}
+.jwc-donut.is-focused .jwc-legend-item{opacity:var(--jwc-dim-opacity)}
+.jwc-donut.is-focused .jwc-legend-item.is-active{opacity:1;color:var(--jwc-ink)}
+.jwc-legend-swatch{width:9px;height:9px;flex:none;background:var(--jwc-c);
+  box-shadow:0 0 0 1px var(--jwc-c),0 0 10px -2px var(--jwc-c)}
+.jwc-legend-value{color:var(--jwc-dim)}
+.jwc-legend-item.is-active .jwc-legend-value{color:var(--jwc-c)}
+
+/* ------------------------------------------------------------- entrance */
+@keyframes jwc-in{from{opacity:0;transform:scale(.965)}to{opacity:1;transform:none}}
+.jwc-slices{animation:jwc-in .5s cubic-bezier(.2,.7,.3,1) both;transform-origin:50% 50%}
+.jwc-leaders,.jwc-center{animation:jwc-in .5s .18s cubic-bezier(.2,.7,.3,1) both}
+/* A chart that is re-rendered as its data changes must not replay its entrance,
+   or it spends its life at the transparent first frame. Set `animate: false`. */
+.jwc-static .jwc-slices,.jwc-static .jwc-leaders,.jwc-static .jwc-center{animation:none}
+
+@media (prefers-reduced-motion:reduce){
+  .jwc-slices,.jwc-leaders,.jwc-center{animation:none}
+  .jwc-slice,.jwc-arc,.jwc-leader,.jwc-legend-item{transition:none}
+  .jwc{--jwc-lift:0}
+}
+@media (max-width:640px){
+  .jwc-leader-label{font-size:11px}
+  .jwc-leader-value{font-size:9.5px}
+  .jwc-center-value{font-size:26px}
+}
+@media print{
+  .jwc-slice,.jwc-leader,.jwc-legend-item{opacity:1 !important;transform:none !important}
+  .jwc-slices,.jwc-leaders,.jwc-center{animation:none}
+}
