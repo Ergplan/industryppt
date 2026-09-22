@@ -1,5 +1,6 @@
 import type { DeckData } from "@/lib/types";
 import { DeckBar } from "./DeckBar";
+import { DeckInteractive } from "./DeckInteractive";
 import { Page } from "./ui";
 import * as S from "./sections";
 
@@ -37,6 +38,7 @@ export function Deck({ deck, showBar = true }: { deck: DeckData; showBar?: boole
           </Page>
         ))}
       </main>
+      <DeckInteractive />
     </div>
   );
 }

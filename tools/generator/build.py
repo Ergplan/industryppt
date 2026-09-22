@@ -1,8 +1,37 @@
-import math, html
+import json, math, html, os, re
 import scenes, hp101
 from iso import C
 
 E = html.escape
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
+
+
+def shared(rel):
+    """Read a file the Next.js site also uses, so both stay in step from one source."""
+    with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
+        return f.read()
+
+
+# `import {...} from "./x.js"` / `export {...} from "./x.js"` on one line
+_MODULE_LINE = re.compile(r'^\s*(?:import|export)\s*\{[^}]*\}\s*from\s*[\'"][^\'"]+[\'"];?\s*$', re.M)
+_EXPORT_DECL = re.compile(r'^export\s+(function|const|let|var|class)\s', re.M)
+
+
+def bundle(paths):
+    """Flatten a few ES modules into one classic script.
+
+    These files import only each other and are listed in dependency order, so
+    dropping the module statements and concatenating leaves every binding in one
+    shared scope. Enough for this; not a general bundler."""
+    out = []
+    for rel in paths:
+        src = _MODULE_LINE.sub("", shared(rel))
+        src = _EXPORT_DECL.sub(r"\1 ", src)
+        if "import " in src and "from" in src:
+            raise SystemExit("bundle(): unhandled module syntax left in %s" % rel)
+        out.append("/* --- %s --- */\n%s" % (rel, src))
+    return "\n".join(out)
 
 CSS = r"""
 
@@ -172,12 +201,19 @@ def logo():
 
 
 # ------------------------------------------------------------------ charts
-def day_chart(ind):
-    W, H, L, R, T, B = 720, 300, 30, 16, 40, 34
-    pw, ph = W - L - R, H - T - B
+# Chart geometry, shared by the SVG below and by the hover scrubber in
+# lib/deck-interactive.js, which needs it to map a cursor x back to a 15-min block.
+DAY_GEO = {"w": 720, "h": 300, "l": 30, "r": 16, "t": 40, "b": 34, "max": 128.0, "n": 97}
+
+
+def day_series(ind):
+    """The 24-hour supply stack as data: one value per 15-minute block, in kW.
+
+    day_chart() draws it; export.py ships it to the site so the chart can be
+    scrubbed.  Both read the same numbers, so the picture and the readout agree."""
     base_on, base_off, hp_kw = ind["load"]
     hp_start, hp_end = ind.get("hp_window", (9, 16))
-    ts = [i / 4 for i in range(97)]
+    ts = [i / 4 for i in range(DAY_GEO["n"])]
 
     def smooth(h, a, b, k=.8):
         return 1 / (1 + math.exp(-(h - a) / k * 3)) * (1 - 1 / (1 + math.exp(-(h - b) / k * 3)))
@@ -189,7 +225,28 @@ def day_chart(ind):
     sol = [max(0, 105 * math.sin(math.pi * (h - 6) / 12)) if 6 < h < 18 else 0 for h in ts]
     sol = [min(s, l - w) for s, l, w in zip(sol, load, wind)]
     bess = [min(22, l - w - s) if 17.5 <= h <= 22 else 0 for h, l, w, s in zip(ts, load, wind, sol)]
-    mx = 128.0
+    # whatever the on-site sources do not cover is bought green from the market
+    market = [max(0, l - w - s - e) for l, w, s, e in zip(load, wind, sol, bess)]
+    return {"hours": ts, "base": base, "hp": hp, "load": load,
+            "wind": wind, "solar": sol, "bess": bess, "market": market}
+
+
+def day_data(ind):
+    """day_series() rounded for JSON/attribute transport, plus the geometry."""
+    s = day_series(ind)
+    out = {"geo": DAY_GEO, "unit": "kW"}
+    for k, v in s.items():
+        out[k] = [round(x, 1) for x in v]
+    return out
+
+
+def day_chart(ind):
+    W, H, L, R, T, B = DAY_GEO["w"], DAY_GEO["h"], DAY_GEO["l"], DAY_GEO["r"], DAY_GEO["t"], DAY_GEO["b"]
+    pw, ph = W - L - R, H - T - B
+    d = day_series(ind)
+    ts, base, hp, load = d["hours"], d["base"], d["hp"], d["load"]
+    wind, sol, bess = d["wind"], d["solar"], d["bess"]
+    mx = DAY_GEO["max"]
 
     def X(i): return L + pw * i / 96
 
@@ -278,13 +335,18 @@ def econ(ind):
     ]
     mxc = max(r[2] for r in rows)
     mxe = max(r[3] for r in rows)
-    o = ['<div class="econ"><div class="ehead"><div class="lab">Source of heat</div><div class="lab">₹ per kWh of useful heat</div><div class="lab" style="text-align:right">₹/kWh-th</div></div>']
+    # data-* carry the absolute figures; the bar widths stay relative to the dearest row
+    kind = {"#5d666c": "fuel", "#f2994a": "grid", "#3dd68c": "green"}
+    def at(n, s, c, e, col):
+        return 'data-name="%s" data-sub="%s" data-kind="%s" data-cost="%.4f" data-co2="%.4f"' % (
+            n, s, kind.get(col, "fuel"), c, e)
+    o = ['<div class="econ" data-jw="econ"><div class="ehead"><div class="lab">Source of heat</div><div class="lab">₹ per kWh of useful heat</div><div class="lab" style="text-align:right">₹/kWh-th</div></div>']
     for n, s, c, e, col in rows:
-        o.append('<div class="erow"><div class="nm">%s<small>%s</small></div><div class="ebar"><i style="width:%.1f%%;background:%s"></i></div><div class="v">%.2f</div></div>' % (n, s, 100 * c / mxc, col, c))
-    o.append('</div><div class="econ"><div class="ehead"><div class="lab">Source of heat</div><div class="lab">kg CO₂ per kWh of useful heat</div><div class="lab" style="text-align:right">kg/kWh-th</div></div>')
+        o.append('<div class="erow" %s><div class="nm">%s<small>%s</small></div><div class="ebar"><i style="width:%.1f%%;background:%s"></i></div><div class="v">%.2f</div></div>' % (at(n, s, c, e, col), n, s, 100 * c / mxc, col, c))
+    o.append('</div><div class="econ" data-jw="econ"><div class="ehead"><div class="lab">Source of heat</div><div class="lab">kg CO₂ per kWh of useful heat</div><div class="lab" style="text-align:right">kg/kWh-th</div></div>')
     for n, s, c, e, col in rows:
         w = 100 * e / mxe
-        o.append('<div class="erow"><div class="nm">%s</div><div class="ebar"><i style="width:%.1f%%;background:%s;opacity:.75"></i></div><div class="v">%s</div></div>' % (n, max(w, .6), col, "%.2f" % e if e else "≈ 0"))
+        o.append('<div class="erow" %s><div class="nm">%s</div><div class="ebar"><i style="width:%.1f%%;background:%s;opacity:.75"></i></div><div class="v">%s</div></div>' % (at(n, s, c, e, col), n, max(w, .6), col, "%.2f" % e if e else "≈ 0"))
     o.append('</div>')
     return "".join(o), rows
 
@@ -350,12 +412,12 @@ def build(ind):
     pages.append(("The stack", "Power → heat → data → ESG", stack))
 
     # 04 supply chain
-    pts = "".join('<div class="pt"><span class="num c-%s">%02d</span><div><h4>%s</h4><p>%s</p><span class="tag c-%s">%s</span></div></div>' % (
-        l, n, t, d, l, {"power": "Power", "heat": "Heat", "data": "Data · ergOS", "esg": "ESG · esgOS"}[l]) for n, l, t, d in ind["marks"])
+    pts = "".join('<div class="pt" data-layer="%s"><span class="num c-%s">%02d</span><div><h4>%s</h4><p>%s</p><span class="tag c-%s">%s</span></div></div>' % (
+        l, l, n, t, d, l, {"power": "Power", "heat": "Heat", "data": "Data · ergOS", "esg": "ESG · esgOS"}[l]) for n, l, t, d in ind["marks"])
     sc = ('<div class="eb">%s <i>/ where we intervene</i></div>' % E(ind["chain_eb"]) + '<h2>%s</h2>' % ind["chain_h"] +
-          '<p class="lede">%s</p>' % ind["chain_p"] + '<div class="fig scroll">%s</div><span class="swipe">Swipe to see the whole plant</span>' % scene_svg +
+          '<p class="lede">%s</p>' % ind["chain_p"] + '<div data-jw="scene"><div class="fig scroll">%s</div><span class="swipe">Swipe to see the whole plant</span>' % scene_svg +
           '<div class="legend"><span><i class="sw" style="background:var(--green)"></i>Power</span><span><i class="sw" style="background:var(--heat)"></i>Heat</span><span><i class="sw" style="background:var(--data)"></i>Data · ergOS</span><span><i class="sw" style="background:var(--esg)"></i>ESG · esgOS</span></div>' +
-          '<div class="pts">%s</div><p class="note">Illustrative plant. Actual intervention map built site by site in the baseline.</p>' % pts)
+          '<div class="pts">%s</div><span class="jw-hint">Tap a number on the plant to hold its detail</span></div><p class="note">Illustrative plant. Actual intervention map built site by site in the baseline.</p>' % pts)
     pages.append(("Supply chain", "Intervention map", sc))
 
     # 05 power
@@ -365,7 +427,7 @@ def build(ind):
              ("Orchestrate", "ergOS forecasts 96 blocks, schedules with the SLDC, trades DAM, GDAM, RTM and GTAM, manages banking and battery health — and now dispatches heat pumps and thermal storage against price.", "For the life of the assets")]
     st = "".join('<div class="st"><div class="n">%02d</div><div><h4>%s</h4><p>%s</p><div class="out">%s</div></div></div>' % (i + 1, a, b, c) for i, (a, b, c) in enumerate(steps))
     pw = ('<div class="eb">Layer 01 <i>/ power</i></div>' + '<h2>Low-cost<br><span class="g">green power.</span></h2>' +
-          '<p class="lede">%s</p>' % ind["power_p"] + '<div class="callout"><b>Every source, one dispatch.</b> Intrastate and ISTS solar and wind, rooftop solar, BESS and green-market purchase — each source orchestrated to fulfil industrial demand at least cost.</div>' + '<div class="fig">%s</div>' % day_chart(ind) +
+          '<p class="lede">%s</p>' % ind["power_p"] + '<div class="callout"><b>Every source, one dispatch.</b> Intrastate and ISTS solar and wind, rooftop solar, BESS and green-market purchase — each source orchestrated to fulfil industrial demand at least cost.</div>' + '<div class="fig" data-jw="day" data-day=\'%s\'>%s</div>' % (json.dumps(day_data(ind), separators=(",", ":")), day_chart(ind)) +
           '<div class="legend"><span><i class="sw" style="background:#1f7a55"></i>Wind · ISTS</span><span><i class="sw" style="background:#3dd68c"></i>Solar</span><span><i class="sw" style="background:#5b8def"></i>BESS</span><span><i class="sw" style="background:#8fd9b6;opacity:.5"></i>Green market</span><span><i class="sw" style="border:1px solid #f2994a;background:rgba(242,153,74,.25)"></i>Heat pump load</span></div>' +
           '<div class="seq">%s</div>' % st)
     pages.append(("Power", "Plan · implement · meter · orchestrate", pw))
@@ -378,11 +440,11 @@ def build(ind):
     for n, sub, lo, hi in ind["heat_loads"]:
         fits = hi <= 120
         col = "var(--heat)" if fits else "#5d666c"
-        lad.append('<div class="lrow"><div class="nm">%s<small>%s</small></div><div class="track"><span class="rg" style="left:%.1f%%;width:%.1f%%;background:%s"></span><span class="cap" style="left:60%%"></span></div></div>' % (
-            n, sub, lo / 2, max((hi - lo) / 2, 1.2), col))
+        lad.append('<div class="lrow" data-name="%s" data-sub="%s" data-min="%s" data-max="%s" data-hp="%d"><div class="nm">%s<small>%s</small></div><div class="track"><span class="rg" style="left:%.1f%%;width:%.1f%%;background:%s"></span><span class="cap" style="left:60%%"></span></div></div>' % (
+            n, sub, lo, hi, 1 if fits else 0, n, sub, lo / 2, max((hi - lo) / 2, 1.2), col))
     heat = ('<div class="eb">Layer 02 <i>/ heat</i></div>' + '<h2>The boiler,<br><span class="h">reinvented.</span></h2>' +
             '<p class="lede">%s</p>' % ind["heat_p"] +
-            '<div class="ladder">%s</div><div class="scale"><div></div><div><span style="left:0">0 °C</span><span style="left:25%%">50</span><span style="left:50%%">100</span><span class="c-heat" style="left:60%%">120</span><span style="left:75%%">150</span><span style="left:100%%">200 °C</span></div></div>' % "".join(lad) +
+            '<div class="ladder" data-jw="loads">%s</div><div class="scale"><div></div><div><span style="left:0">0 °C</span><span style="left:25%%">50</span><span style="left:50%%">100</span><span class="c-heat" style="left:60%%">120</span><span style="left:75%%">150</span><span style="left:100%%">200 °C</span></div></div>' % "".join(lad) +
             '<div class="legend"><span><i class="sw" style="background:var(--heat)"></i>Heat pump range</span><span><i class="sw" style="background:#5d666c"></i>Stays on existing burners or electrode heat</span><span><i class="sw" style="border-left:2px dashed var(--heat)"></i>120 °C ceiling</span></div>' +
             '<div class="grid3">' + "".join('<div class="card">%s<h3>%s</h3><p>%s</p></div>' % x for x in [
                 (icon("flame"), "Heat sources we reuse", ind["heat_src"]),
@@ -482,13 +544,20 @@ def build(ind):
     js = """<script>(function(){var p=document.querySelector('.prog'),c=document.getElementById('cur'),s=[].slice.call(document.querySelectorAll('.pg'));
 function u(){var h=document.documentElement,m=h.scrollHeight-h.clientHeight;p.style.width=(m>0?100*h.scrollTop/m:0)+'%';var k=0;s.forEach(function(e,i){if(e.getBoundingClientRect().top<120)k=i});c.textContent=(k<10?'0':'')+k}
 addEventListener('scroll',u,{passive:true});u()})()</script>"""
+    # the chart readouts: the same files the site imports, so the two behave identically
+    js += "<script>%s\ninitDeckInteractive(document);enhance(document);</script>" % bundle([
+        "lib/jwchart/core.js", "lib/jwchart/donut.js", "lib/jwchart/index.js",
+        "lib/deck-interactive.js",
+    ])
     out = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>jouleWise · Decarbonisation stack · %s</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>%s%s</style></head><body>
+<style>%s%s%s%s%s</style></head><body class="jw-deck">
 <header class="bar"><div class="bar-in">%s<div class="bar-r"><span class="x">Decarbonisation stack · </span><b>%s</b> · <span id="cur">00</span>/%02d</div></div><div class="prog"></div></header>
-<main>%s</main>%s</body></html>""" % (ind["short"], CSS, hp101.CSS, logo(), ind["short"], total, "".join(body), js)
+<main>%s</main>%s</body></html>""" % (ind["short"], CSS, hp101.CSS, shared("lib/jwchart/jwchart.css"),
+       shared("styles/deck-charts.css"), shared("styles/deck-interactive.css"),
+       logo(), ind["short"], total, "".join(body), js)
     for a, b in ind.get("subs", []):
         out = out.replace(a, b)
     return out

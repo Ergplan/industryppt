@@ -37,4 +37,11 @@ export interface DeckData {
     people: { area: string; color: Swatch; name: string; email: string; phone: string | null }[];
     company: { site: string; legal: string } };
   svg: { coverStack: string; loop: string; cycle: string; scene: string; dayChart: string };
+  /** The series svg.dayChart is drawn from, so the chart can be scrubbed. See build.py day_data(). */
+  dayData: {
+    geo: { w: number; h: number; l: number; r: number; t: number; b: number; max: number; n: number };
+    unit: string;
+    hours: number[]; base: number[]; hp: number[]; load: number[];
+    wind: number[]; solar: number[]; bess: number[]; market: number[];
+  };
 }

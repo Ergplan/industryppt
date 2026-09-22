@@ -1,6 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Inter_Tight, IBM_Plex_Mono } from "next/font/google";
 import "@/styles/jw-deck.css";
+import "@/lib/jwchart/jwchart.css";
+import "@/styles/deck-charts.css";
+import "@/styles/deck-interactive.css";
 
 const interTight = Inter_Tight({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-inter-tight", display: "swap" });
 const plexMono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-plex-mono", display: "swap" });

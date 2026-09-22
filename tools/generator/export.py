@@ -3,7 +3,7 @@ Text is plain strings; fields ending in `Html` may contain <b>, <br> and <span c
 SVG artwork is generated here (scenes.py / iso.py) and embedded as strings."""
 import json, os, sys
 import scenes, industries, hp101
-from build import day_chart, loop_svg
+from build import day_chart, day_data, loop_svg
 
 GP = "Intrastate and ISTS solar and wind, rooftop solar, BESS and green-market purchase — each source orchestrated to fulfil industrial demand at least cost."
 LAYER_TAG = {"power": "Power", "heat": "Heat", "data": "Data · ergOS", "esg": "ESG · esgOS"}
@@ -161,6 +161,8 @@ def deck(ind):
         },
         "svg": {"coverStack": scenes.cover_stack(), "loop": loop_svg(), "cycle": hp101.cycle_svg(),
                 "scene": getattr(scenes, ind["scene"])(), "dayChart": day_chart(ind)},
+        # the same numbers the day chart is drawn from, so the site can scrub it
+        "dayData": day_data(ind),
     }
     s = json.dumps(d, ensure_ascii=False, indent=1)
     for a, b in ind.get("subs", []):

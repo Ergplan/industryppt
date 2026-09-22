@@ -55,7 +55,7 @@ function Points({ items }: { items: { n: number; layer: DeckData["stack"]["items
   return (
     <div className="pts">
       {items.map((p) => (
-        <div className="pt" key={p.n}>
+        <div className="pt" key={p.n} data-layer={p.layer}>
           <span className={`num ${layerClass(p.layer)}`}>{pad2(p.n)}</span>
           <div>
             <h4>{p.title}</h4>
@@ -89,14 +89,17 @@ export function SupplyChain({ d }: S) {
       <Eyebrow lead={s.eyebrow} rest="where we intervene" />
       <Rich as="h2" html={s.titleHtml} />
       <p className="lede">{s.lede}</p>
-      <Art svg={d.svg.scene} className="fig scroll" swipe="Swipe to see the whole plant" />
-      <Legend items={[
-        { label: "Power", style: { background: "var(--green)" } },
-        { label: "Heat", style: { background: "var(--heat)" } },
-        { label: "Data · ergOS", style: { background: "var(--data)" } },
-        { label: "ESG · esgOS", style: { background: "var(--esg)" } },
-      ]} />
-      <Points items={s.points} />
+      <div data-jw="scene">
+        <Art svg={d.svg.scene} className="fig scroll" swipe="Swipe to see the whole plant" />
+        <Legend items={[
+          { label: "Power", style: { background: "var(--green)" } },
+          { label: "Heat", style: { background: "var(--heat)" } },
+          { label: "Data · ergOS", style: { background: "var(--data)" } },
+          { label: "ESG · esgOS", style: { background: "var(--esg)" } },
+        ]} />
+        <Points items={s.points} />
+        <span className="jw-hint">Tap a number on the plant to hold its detail</span>
+      </div>
       <p className="note">{s.note}</p>
     </>
   );
@@ -127,7 +130,7 @@ export function Power({ d }: S) {
       <Rich as="h2" html={p.titleHtml} />
       <p className="lede">{p.lede}</p>
       <Rich as="div" className="callout" html={p.calloutHtml} />
-      <Art svg={d.svg.dayChart} />
+      <Art svg={d.svg.dayChart} data-jw="day" data-day={JSON.stringify(d.dayData)} />
       <Legend items={[
         { label: "Wind · ISTS", style: { background: "#1f7a55" } },
         { label: "Solar", style: { background: "#3dd68c" } },
@@ -152,9 +155,9 @@ export function HeatPump101({ d }: S) {
       <p className="lede">{h.lede}</p>
       <Art svg={d.svg.cycle} className="fig scroll cyc" swipe="Swipe to see the whole cycle" />
       <p className="lab" style={{ marginTop: 30 }}>What goes in, what comes out</p>
-      <div className="bal">
+      <div className="bal" data-jw="balance">
         {h.balance.map((b) => (
-          <div className="brow" key={b.name}>
+          <div className="brow" key={b.name} data-name={b.name} data-in={JSON.stringify(b.in)} data-out={b.out}>
             <div className="bn">{b.name}</div>
             <div className="bb">
               <div className="bt">{b.in.map(([k, v]) => <span key={k} style={{ width: `${(100 * v) / max}%`, background: BAL_COLOR[k] }} />)}</div>
@@ -186,9 +189,9 @@ export function Heat({ d }: S) {
       <Eyebrow lead="Layer 02" rest="heat" />
       <Rich as="h2" html={h.titleHtml} />
       <p className="lede">{h.lede}</p>
-      <div className="ladder">
+      <div className="ladder" data-jw="loads">
         {h.loads.map((l) => (
-          <div className="lrow" key={l.name}>
+          <div className="lrow" key={l.name} data-name={l.name} data-sub={l.sub} data-min={l.min} data-max={l.max} data-hp={l.heatPump ? "1" : "0"}>
             <div className="nm">{l.name}<small>{l.sub}</small></div>
             <div className="track">
               <span className="rg" style={{ left: `${l.min / 2}%`, width: `${Math.max((Math.min(l.max, 200) - l.min) / 2, 1.2)}%`, background: l.heatPump ? "var(--heat)" : "#5d666c" }} />
@@ -213,6 +216,12 @@ export function Heat({ d }: S) {
 
 const ECON_COLOR = { fuel: "#5d666c", grid: "#f2994a", green: "#3dd68c" } as const;
 
+/** Numbers the hover readout needs; the bar widths stay relative, these stay absolute. */
+const econAttrs = (r: DeckData["economics"]["rows"][number]) => ({
+  "data-name": r.name, "data-sub": r.sub, "data-kind": r.kind,
+  "data-cost": r.costPerKwhTh, "data-co2": r.co2PerKwhTh,
+});
+
 export function Economics({ d }: S) {
   const e = d.economics;
   const mc = Math.max(...e.rows.map((r) => r.costPerKwhTh));
@@ -222,20 +231,20 @@ export function Economics({ d }: S) {
       <Eyebrow lead="The loop in numbers" rest="illustrative" />
       <Rich as="h2" html={e.titleHtml} />
       <p className="lede">{e.lede}</p>
-      <div className="econ">
+      <div className="econ" data-jw="econ">
         <div className="ehead"><div className="lab">Source of heat</div><div className="lab">₹ per kWh of useful heat</div><div className="lab" style={{ textAlign: "right" }}>₹/kWh-th</div></div>
         {e.rows.map((r) => (
-          <div className="erow" key={r.name}>
+          <div className="erow" key={r.name} {...econAttrs(r)}>
             <div className="nm">{r.name}<small>{r.sub}</small></div>
             <div className="ebar"><i style={{ width: `${(100 * r.costPerKwhTh) / mc}%`, background: ECON_COLOR[r.kind] }} /></div>
             <div className="v">{r.costPerKwhTh.toFixed(2)}</div>
           </div>
         ))}
       </div>
-      <div className="econ">
+      <div className="econ" data-jw="econ">
         <div className="ehead"><div className="lab">Source of heat</div><div className="lab">kg CO₂ per kWh of useful heat</div><div className="lab" style={{ textAlign: "right" }}>kg/kWh-th</div></div>
         {e.rows.map((r) => (
-          <div className="erow" key={r.name}>
+          <div className="erow" key={r.name} {...econAttrs(r)}>
             <div className="nm">{r.name}</div>
             <div className="ebar"><i style={{ width: `${Math.max((100 * r.co2PerKwhTh) / me, 0.6)}%`, background: ECON_COLOR[r.kind], opacity: 0.75 }} /></div>
             <div className="v">{r.co2PerKwhTh ? r.co2PerKwhTh.toFixed(2) : "≈ 0"}</div>

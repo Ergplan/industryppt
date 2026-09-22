@@ -1,0 +1,12 @@
+/* Deck theme for jwchart (lib/jwchart) — the library ships neutral defaults and this
+   file maps them onto the deck's own tokens. Shared by the Next.js site and the
+   standalone exports, so charts look identical in both. */
+
+.jw-deck .jwc{
+  --jwc-ink:var(--ink);
+  --jwc-muted:var(--mute);
+  --jwc-dim:var(--dim);
+  --jwc-line:var(--line2);
+  --jwc-font:var(--sans);
+  --jwc-mono:var(--mono);
+}

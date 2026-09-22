@@ -48,11 +48,14 @@ def cycle_svg():
 def balance():
     def seg(v, col, lab):
         return '<span style="width:%.2f%%;background:%s" title="%s"></span>' % (100 * v / 3.5, col, lab)
-    rows = [("Fuel boiler", [seg(1, "#5d666c", "fuel")], "1 kWh fuel", [seg(.85, "#f2994a", "heat")], "0.85 kWh heat"),
-            ("Heat pump", [seg(1, "#3dd68c", "electricity"), seg(2.5, "#5b8def", "free heat")], "1 kWh power + 2.5 free", [seg(3.5, "#f2994a", "heat")], "3.5 kWh heat")]
-    h = ['<div class="bal">']
-    for n, i, il, oo, ol in rows:
-        h.append('<div class="brow"><div class="bn">%s</div><div class="bb"><div class="bt">%s</div><small>in · %s</small><div class="bt">%s</div><small class="c-heat">out · %s</small></div></div>' % (n, "".join(i), il, "".join(oo), ol))
+    rows = [("Fuel boiler", [seg(1, "#5d666c", "fuel")], "1 kWh fuel", [seg(.85, "#f2994a", "heat")], "0.85 kWh heat",
+             '[["fuel",1.0]]', 0.85),
+            ("Heat pump", [seg(1, "#3dd68c", "electricity"), seg(2.5, "#5b8def", "free heat")], "1 kWh power + 2.5 free", [seg(3.5, "#f2994a", "heat")], "3.5 kWh heat",
+             '[["electricity",1.0],["free",2.5]]', 3.5)]
+    # data-* mirror the bars for lib/deck-interactive.js; the bars alone carry no numbers
+    h = ['<div class="bal" data-jw="balance">']
+    for n, i, il, oo, ol, ins, out in rows:
+        h.append('<div class="brow" data-name="%s" data-in=\'%s\' data-out="%s"><div class="bn">%s</div><div class="bb"><div class="bt">%s</div><small>in · %s</small><div class="bt">%s</div><small class="c-heat">out · %s</small></div></div>' % (n, ins, out, n, "".join(i), il, "".join(oo), ol))
     h.append('</div>')
     return "".join(h)
 
